@@ -1,6 +1,7 @@
 import sqlite3
 import json
 from datetime import date, datetime
+import pandas as pd
 
 class Database:
     def __init__(self, name):
@@ -26,7 +27,7 @@ class Database:
                 turnedPro TEXT,
                 prizeTotal INTEGER,
                 birth DATETIME,
-                update DATETIME
+                last_update DATETIME
             );
             ''')
             conn.commit()  # Save the changes
@@ -47,9 +48,31 @@ class Database:
                 winner_id INTEGER,
                 loser_id INTEGER,
                 score TEXT,
-                has_stats BIT,
+                home INTEGER,
+                have_stats BIT DEFAULT 0,
                 FOREIGN KEY (winner_id) REFERENCES Players (player_id),
-                FOREIGN KEY (loser_id) REFERENCES Players (player_id)
+                FOREIGN KEY (loser_id) REFERENCES Players (player_id),
+                FOREIGN KEY (home) REFERENCES Players (player_id)
+            );
+            ''')
+            conn.commit()  # Save the changes
+
+    def make_new_table_statistics(self):
+
+        with sqlite3.connect(self.name) as conn:
+            cursor = conn.cursor()
+
+            # --- Create the Matches table ---
+            cursor.execute('''
+            CREATE TABLE IF NOT EXISTS MatchStats (
+                stat_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                match_id INTEGER, 
+                period TEXT,
+                stat_group TEXT,
+                stat_name TEXT,
+                home_value TEXT,
+                away_value TEXT,
+                FOREIGN KEY (match_id) REFERENCES Matches (match_id)
             );
             ''')
             conn.commit()  # Save the changes
@@ -97,9 +120,9 @@ class Database:
             conn.commit()
 
     def fill_ranking(self, data):
-        with sqlite3.connect(self.name) as conn: #, open("rank/rankings_13112025.json", "r") as f:
+        with sqlite3.connect(self.name) as conn, open("rank/rankings_13112025.json", "r") as f:
             cursor = conn.cursor()
-            #data = json.load(f)
+            data = json.load(f)
             ranking = data['rankings']
             for team in ranking:
                 try:
@@ -118,9 +141,9 @@ class Database:
             conn.commit()
 
     def add_match(self, match_data):
-        with (sqlite3.connect(self.name) as conn): #, open("rank/alcarazevents_10112025.json", "r") as f):
+        with (sqlite3.connect(self.name) as conn, open("rank/alcarazevents_10112025.json", "r") as f):
             cursor = conn.cursor()
-            #match_data = json.load(f)
+            match_data = json.load(f)
             for event in match_data['events']:
                 if event['status'].get('type') == "finished":
                     print("finished")
@@ -156,28 +179,67 @@ class Database:
                                 winner_id,
                                 loser_id,
                                 round,
-                                score) 
-                                VALUES (?, ?, ?, ?, ?, ?, ?, ?)''',
+                                home,
+                                score)
+                                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)''',
                                 (event.get('id'),
                                 tournament_id,
                                 groundType, date,
                                 winner_id,
                                 loser_id,
                                 round,
+                                event['homeTeam'].get('id'),
                                 score))
                     except sqlite3.Error as e:
                         print(f"An error occurred: {e}")
             conn.commit()
 
-    def add_additional_player_info(self, player_data):
-        with (sqlite3.connect(self.name) as conn): #, open("rank/alcarazinfo.json", "r", encoding='utf-8') as f):
+    def add_match_stats(self, stats_data, match_id):
+        # 1. Flatten the JSON data
+        flat_stats = []
+        for period_stats in stats_data['statistics']:
+            period = period_stats['period']
+            for group in period_stats['groups']:
+                group_name = group['groupName']
+                for stat_item in group['statisticsItems']:
+                    flat_stats.append((
+                        match_id,
+                        period,
+                        group_name,
+                        stat_item.get('name', 'N/A'),
+                        stat_item.get('home', 'N/A'),
+                        stat_item.get('away', 'N/A')
+                    ))
+
+        # 2. Insert all rows into the database
+        with sqlite3.connect(self.name) as conn:
             cursor = conn.cursor()
-            #player_data = json.load(f)
+            try:
+                # Use executemany to insert all stats at once
+                sql = """
+                INSERT OR IGNORE INTO MatchStats 
+                (match_id, period, stat_group, stat_name, home_value, away_value)
+                VALUES (?, ?, ?, ?, ?, ?)
+                """
+                cursor.executemany(sql, flat_stats)
+
+                cursor.execute('''UPDATE Matches SET have_stats = ? WHERE match_id = ?''', (1, match_id))
+                conn.commit()
+
+
+                print(f"Successfully added {len(flat_stats)} stat rows for match {match_id}")
+            except sqlite3.Error as e:
+                print(f"An error occurred while adding stats: {e}")
+
+    def add_additional_player_info(self, player_data):
+        with (sqlite3.connect(self.name) as conn, open("rank/alcarazinfo.json", "r", encoding='utf-8') as f):
+            cursor = conn.cursor()
+            player_data = json.load(f)
             player = player_data['team']
             try:
                 cursor.execute('''UPDATE Players
                                 SET gender = ?, residence = ?, height = ?, weight = ?,
-                                plays = ?, turnedPro = ?, prizeTotal = ?, birth = ?
+                                plays = ?, turnedPro = ?, prizeTotal = ?, birth = ?, last_update = ?
                                 WHERE player_id = ?''',
                                (player['gender'],
                                 player['playerTeamInfo'].get('residence'),
@@ -187,17 +249,8 @@ class Database:
                                 player['playerTeamInfo'].get('turnedPro'),
                                 player['playerTeamInfo'].get('prizeTotal'),
                                 datetime.fromtimestamp(player['playerTeamInfo'].get('birthDateTimestamp')),
+                                datetime.today(),
                                 player['id']))
-            except sqlite3.Error as e:
-                print(f"An error occurred: {e}")
-            conn.commit()
-
-    def update_players_table(self):
-        with sqlite3.connect(self.name) as conn:
-            cursor = conn.cursor()
-
-            try:
-                cursor.execute("UPDATE Players SET gender = 'M'")
             except sqlite3.Error as e:
                 print(f"An error occurred: {e}")
             conn.commit()
@@ -287,12 +340,13 @@ class Database:
 
 if __name__ == "__main__":
     database = Database("tennis.db")
-    #database.make_new_table_matches()
-    #database.make_new_table_players()
-    #database.make_new_table_rankings()
-    #database.update_players_from_ranking()
-    #database.fill_ranking()
-    #database.add_match("dd")
+    database.make_new_table_matches()
+    database.make_new_table_players()
+    database.make_new_table_rankings()
+    database.make_new_table_statistics()
+    database.update_players_from_ranking()
+    database.fill_ranking("dd")
+    database.add_match("dd")
     #database.show_stats()
     #print(database.player_from_rank(1))
     #print(database.player_name_from_id(database.player_from_rank(1)))
@@ -301,4 +355,8 @@ if __name__ == "__main__":
                          where_conditions={'name': 'Carlos Alcaraz'},
                          fetchone=True))
     print(database.search('Players'))
-    #database.add_additional_player_info()
+    database.add_additional_player_info("dd")
+
+    with open("rank/stats_10400727.json", "r", encoding='utf-8') as f:
+        data = json.load(f)  # We're using the string above
+        database.add_match_stats(data, 14046430)
