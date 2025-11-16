@@ -1,0 +1,400 @@
+{
+    "previousEvent": {
+        "firstToServe": 1,
+        "tournament": {
+            "name": "Tour Finals Turin, Italy, Group Jimmy Connors",
+            "slug": "tour-finals-turin-italy-group-jimmy-connors",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "ATP Finals",
+                "slug": "atp-finals",
+                "primaryColorHex": "#3dbfed",
+                "secondaryColorHex": "#017ccb",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 26112,
+                "groundType": "Hardcourt indoor",
+                "hasPerformanceGraphFeature": false,
+                "id": 2517,
+                "hasEventPlayerStatistics": false,
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0646\u0647\u0627\u0626\u064a\u0627\u062a \u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u090f\u091f\u0940\u092a\u0940 \u092b\u093e\u0907\u0928\u0932\u094d\u0938",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf \u09ab\u09be\u0987\u09a8\u09be\u09b2"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isGroup": true,
+            "groupName": "Group Jimmy Connors",
+            "id": 168409,
+            "endTimestamp": 1763078400,
+            "startTimestamp": 1762646400
+        },
+        "season": {
+            "name": "ATP World Tour Finals Men Singles 2025",
+            "year": "2025",
+            "editor": false,
+            "id": 67326
+        },
+        "roundInfo": {
+            "round": 1
+        },
+        "customId": "OzFbsytkc",
+        "status": {
+            "code": 100,
+            "description": "Ended",
+            "type": "finished"
+        },
+        "winnerCode": 1,
+        "homeTeam": {
+            "name": "Carlos Alcaraz",
+            "slug": "alcaraz-carlos",
+            "shortName": "C. Alcaraz",
+            "gender": "M",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "userCount": 239838,
+            "playerTeamInfo": {
+                "id": 3111
+            },
+            "nameCode": "ALC",
+            "ranking": 1,
+            "disabled": false,
+            "national": false,
+            "type": 1,
+            "id": 275923,
+            "subTeams": [],
+            "teamColors": {
+                "primary": "#374df5",
+                "secondary": "#374df5",
+                "text": "#ffffff"
+            },
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0627\u0631\u0644\u0648\u0633 \u0623\u0644\u0643\u0627\u0631\u0627\u0632",
+                    "ru": "\u0410\u043b\u044c\u043a\u0430\u0440\u0430\u0441 \u0413\u0430\u0440\u0444\u0438\u044f, \u041a\u0430\u0440\u043b\u043e\u0441"
+                },
+                "shortNameTranslation": {
+                    "ar": "\u0643. \u0623\u0644\u0643\u0627\u0631\u0627\u0632",
+                    "hi": "\u0938\u0940. \u0905\u0932\u094d\u0915\u093e\u0930\u093e\u091c\u093c",
+                    "bn": "\u09b8\u09bf \u0986\u09b2\u0995\u09be\u09b0\u09be\u099c"
+                }
+            }
+        },
+        "awayTeam": {
+            "name": "Alex de Minaur",
+            "slug": "de-minaur-alex",
+            "shortName": "A. de Minaur",
+            "gender": "M",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "userCount": 31312,
+            "playerTeamInfo": {
+                "id": 26
+            },
+            "nameCode": "DE",
+            "ranking": 7,
+            "disabled": false,
+            "national": false,
+            "type": 1,
+            "id": 201239,
+            "subTeams": [],
+            "teamColors": {
+                "primary": "#374df5",
+                "secondary": "#374df5",
+                "text": "#ffffff"
+            },
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0623\u0644\u064a\u0643\u0633 \u062f\u064a \u0645\u064a\u0646\u0627\u0648\u0631",
+                    "ru": "\u0414\u0435 \u041c\u0438\u043d\u0430\u0443\u0440, \u0410\u043b\u0435\u043a\u0441"
+                },
+                "shortNameTranslation": {
+                    "ar": "\u0623. \u062f\u064a \u0645\u064a\u0646\u0627\u0648\u0631",
+                    "hi": "\u090f. \u0921\u0940 \u092e\u093f\u0928\u094c\u0930",
+                    "bn": "\u098f. \u09a1\u09bf \u09ae\u09bf\u09a8\u09be\u0989\u09b0"
+                }
+            }
+        },
+        "homeScore": {
+            "current": 2,
+            "display": 2,
+            "period1": 7,
+            "period2": 6,
+            "period1TieBreak": 7,
+            "point": "A",
+            "normaltime": 2
+        },
+        "awayScore": {
+            "current": 0,
+            "display": 0,
+            "period1": 6,
+            "period2": 2,
+            "period1TieBreak": 5,
+            "point": "40",
+            "normaltime": 0
+        },
+        "coverage": -1,
+        "time": {
+            "period1": 3770,
+            "period2": 2241,
+            "currentPeriodStartTimestamp": 1762697809
+        },
+        "changes": {
+            "changes": [
+                "time.currentPeriodStart",
+                "time.period2"
+            ],
+            "changeTimestamp": 1762700107
+        },
+        "hasGlobalHighlights": true,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 15017492,
+        "slug": "carlos-alcaraz-alex-de-minaur",
+        "startTimestamp": 1762693200,
+        "periods": {
+            "point": "Game",
+            "current": "Match",
+            "period1": "1st set",
+            "period2": "2nd set",
+            "period3": "3rd set",
+            "period4": "4th set",
+            "period5": "5th set"
+        },
+        "finalResultOnly": false,
+        "feedLocked": false,
+        "groundType": "Hardcourt indoor",
+        "isEditor": false
+    },
+    "nextEvent": {
+        "tournament": {
+            "name": "Tour Finals Turin, Italy, Group Jimmy Connors",
+            "slug": "tour-finals-turin-italy-group-jimmy-connors",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "ATP Finals",
+                "slug": "atp-finals",
+                "primaryColorHex": "#3dbfed",
+                "secondaryColorHex": "#017ccb",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 26112,
+                "groundType": "Hardcourt indoor",
+                "hasPerformanceGraphFeature": false,
+                "id": 2517,
+                "hasEventPlayerStatistics": false,
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0646\u0647\u0627\u0626\u064a\u0627\u062a \u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u090f\u091f\u0940\u092a\u0940 \u092b\u093e\u0907\u0928\u0932\u094d\u0938",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf \u09ab\u09be\u0987\u09a8\u09be\u09b2"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isGroup": true,
+            "groupName": "Group Jimmy Connors",
+            "id": 168409,
+            "endTimestamp": 1763078400,
+            "startTimestamp": 1762646400
+        },
+        "season": {
+            "name": "ATP World Tour Finals Men Singles 2025",
+            "year": "2025",
+            "editor": false,
+            "id": 67326
+        },
+        "roundInfo": {
+            "round": 2
+        },
+        "customId": "pvecsytkc",
+        "status": {
+            "code": 0,
+            "description": "Not started",
+            "type": "notstarted"
+        },
+        "homeTeam": {
+            "name": "Carlos Alcaraz",
+            "slug": "alcaraz-carlos",
+            "shortName": "C. Alcaraz",
+            "gender": "M",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "userCount": 239838,
+            "playerTeamInfo": {
+                "id": 3111
+            },
+            "nameCode": "ALC",
+            "ranking": 1,
+            "disabled": false,
+            "national": false,
+            "type": 1,
+            "id": 275923,
+            "subTeams": [],
+            "teamColors": {
+                "primary": "#374df5",
+                "secondary": "#374df5",
+                "text": "#ffffff"
+            },
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0627\u0631\u0644\u0648\u0633 \u0623\u0644\u0643\u0627\u0631\u0627\u0632",
+                    "ru": "\u0410\u043b\u044c\u043a\u0430\u0440\u0430\u0441 \u0413\u0430\u0440\u0444\u0438\u044f, \u041a\u0430\u0440\u043b\u043e\u0441"
+                },
+                "shortNameTranslation": {
+                    "ar": "\u0643. \u0623\u0644\u0643\u0627\u0631\u0627\u0632",
+                    "hi": "\u0938\u0940. \u0905\u0932\u094d\u0915\u093e\u0930\u093e\u091c\u093c",
+                    "bn": "\u09b8\u09bf \u0986\u09b2\u0995\u09be\u09b0\u09be\u099c"
+                }
+            }
+        },
+        "awayTeam": {
+            "name": "Lorenzo Musetti",
+            "slug": "musetti-lorenzo",
+            "shortName": "L. Musetti",
+            "gender": "M",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "userCount": 55400,
+            "playerTeamInfo": {
+                "id": 3705
+            },
+            "nameCode": "MUS",
+            "ranking": 9,
+            "disabled": false,
+            "national": false,
+            "type": 1,
+            "id": 261015,
+            "subTeams": [],
+            "teamColors": {
+                "primary": "#374df5",
+                "secondary": "#374df5",
+                "text": "#ffffff"
+            },
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0644\u0648\u0631\u064a\u0646\u0632\u0648 \u0645\u0648\u0633\u064a\u062a\u064a",
+                    "ru": "\u041c\u0443\u0441\u0435\u0442\u0442\u0438, \u041b\u043e\u0440\u0435\u043d\u0446\u043e"
+                },
+                "shortNameTranslation": {
+                    "ar": "\u0644. \u0645\u0648\u0633\u064a\u062a\u064a",
+                    "hi": "\u090f\u0932. \u092e\u0941\u0938\u0947\u091f\u0940",
+                    "bn": "\u098f\u09b2. \u09ae\u09c1\u09b8\u09c7\u099f\u09bf"
+                }
+            }
+        },
+        "homeScore": {},
+        "awayScore": {},
+        "coverage": -1,
+        "time": {},
+        "changes": {
+            "changeTimestamp": 0
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 15023095,
+        "slug": "carlos-alcaraz-lorenzo-musetti",
+        "startTimestamp": 1762851600,
+        "periods": {
+            "point": "Game",
+            "current": "Match",
+            "period1": "1st set",
+            "period2": "2nd set",
+            "period3": "3rd set",
+            "period4": "4th set",
+            "period5": "5th set"
+        },
+        "finalResultOnly": false,
+        "feedLocked": false,
+        "groundType": "Hardcourt indoor",
+        "isEditor": false
+    }
+}
