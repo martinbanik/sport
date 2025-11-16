@@ -45,14 +45,14 @@ class Database:
                 ground_type TEXT,
                 round TEXT,
                 match_date DATETIME,
-                winner_id INTEGER,
-                loser_id INTEGER,
+                home_player_id INTEGER,
+                away_player_id INTEGER,
                 score TEXT,
-                home INTEGER,
+                winner_id INTEGER,
                 have_stats BIT DEFAULT 0,
-                FOREIGN KEY (winner_id) REFERENCES Players (player_id),
-                FOREIGN KEY (loser_id) REFERENCES Players (player_id),
-                FOREIGN KEY (home) REFERENCES Players (player_id)
+                FOREIGN KEY (home_player_id) REFERENCES Players (player_id),
+                FOREIGN KEY (away_player_id) REFERENCES Players (player_id),
+                FOREIGN KEY (winner_id) REFERENCES Players (player_id)
             );
             ''')
             conn.commit()  # Save the changes
@@ -73,6 +73,25 @@ class Database:
                 home_value TEXT,
                 away_value TEXT,
                 FOREIGN KEY (match_id) REFERENCES Matches (match_id)
+            );
+            ''')
+            conn.commit()  # Save the changes
+
+    def make_new_table_tournaments(self):
+
+        with sqlite3.connect(self.name) as conn:
+            cursor = conn.cursor()
+
+            # --- Create the Matches table ---
+            cursor.execute('''
+            CREATE TABLE IF NOT EXISTS Tournaments (
+                tournament_id INTEGER PRIMARY KEY,
+                name TEXT,
+                groundType TEXT,
+                tennisPoints INTEGER,
+                category TEXT,
+                titleHolder TEXT,
+                FOREIGN KEY (tournament_id) REFERENCES Matches (tournament_id)
             );
             ''')
             conn.commit()  # Save the changes
@@ -141,57 +160,72 @@ class Database:
             conn.commit()
 
     def add_match(self, match_data):
-        with (sqlite3.connect(self.name) as conn, open("rank/alcarazevents_10112025.json", "r") as f):
+        with (sqlite3.connect(self.name) as conn, open("rank/alcarazevents_16112025.json", "r", encoding='utf-8') as f):
             cursor = conn.cursor()
             match_data = json.load(f)
             for event in match_data['events']:
+                home_player_id = event['homeTeam'].get('id')
+                away_player_id = event['awayTeam'].get('id')
+                round = None
+                if event.get('roundInfo'):
+                    round = event['roundInfo'].get('slug')
+                tournament_id = event['tournament'].get('id')
+                tournament = event['tournament']['uniqueTournament']
+                tennisPoints = tournament.get('tennisPoints')
+                tournamentName = tournament.get('name')
+                category = tournament['category'].get('name')
+                groundType = event['groundType']
+                date = datetime.fromtimestamp(event.get('startTimestamp'))
+                score = None
+                winner_id = None
                 if event['status'].get('type') == "finished":
                     print("finished")
+                    score = f"{event['homeScore'].get('current')}:{event['awayScore'].get('current')} ("
+                    for res in event['homeScore']:
+                        if res.startswith("period") and len(res) == 7:
+                            score += f"{event['homeScore'].get(res)}-{event['awayScore'].get(res)}, "
+                    score = score[:-2] + ")"
                     if event.get('winnerCode') == 1:
                         winner_id = event['homeTeam'].get('id')
-                        loser_id = event['awayTeam'].get('id')
-                        score = f"{event['homeScore'].get('current')}:{event['awayScore'].get('current')} ("
-                        for res in event['homeScore']:
-                            if res.startswith("period"):
-                                score += f"{event['homeScore'].get(res)}-{event['awayScore'].get(res)}, "
-                        score = score[:-2] + ")"
                     else:
-                        loser_id = event['homeTeam'].get('id')
                         winner_id = event['awayTeam'].get('id')
-                        score = f"{event['awayScore'].get('current')}:{event['homeScore'].get('current')} ("
-                        for res in event['homeScore']:
-                            if res.startswith("period"):
-                                score += f"{event['awayScore'].get(res)}-{event['homeScore'].get(res)}, "
-                        score = score[:-2] + ")"
-                    tournament_id = event['tournament'].get('id')
-                    groundType = event['groundType']
-                    date = datetime.fromtimestamp(event.get('startTimestamp'))
-                    round = None
-                    if event.get('roundInfo'):
-                        round = event['roundInfo'].get('slug')
-                    try:
-                            cursor.execute(
-                                '''INSERT OR IGNORE INTO Matches (
-                                match_id,
-                                tournament_id, 
-                                ground_type, 
-                                match_date,
-                                winner_id,
-                                loser_id,
-                                round,
-                                home,
-                                score)
-                                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)''',
-                                (event.get('id'),
-                                tournament_id,
-                                groundType, date,
-                                winner_id,
-                                loser_id,
-                                round,
-                                event['homeTeam'].get('id'),
-                                score))
-                    except sqlite3.Error as e:
-                        print(f"An error occurred: {e}")
+                try:
+                    cursor.execute(
+                        '''INSERT OR IGNORE INTO Matches (
+                        match_id,
+                        tournament_id, 
+                        ground_type, 
+                        match_date,
+                        home_player_id,
+                        away_player_id,
+                        round,
+                        winner_id,
+                        score)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        ON CONFLICT(match_id) DO UPDATE SET
+                        winner_id = excluded.winner_id,
+                        score = excluded.score,
+                        match_date = excluded.match_date''',
+                        (event.get('id'),
+                         tournament_id,
+                         groundType, date,
+                         home_player_id,
+                         away_player_id,
+                         round,
+                         winner_id,
+                         score))
+                    cursor.execute('''INSERT OR IGNORE INTO Tournaments (
+                                            tournament_id, 
+                                            name, category,
+                                            tennisPoints, groundType) 
+                                            VALUES (?, ?, ?, ?, ?)''',
+                                   (tournament_id,
+                                    tournamentName,
+                                    category,
+                                    tennisPoints,
+                                    groundType))
+                except sqlite3.Error as e:
+                    print(f"An error occurred: {e}")
             conn.commit()
 
     def add_match_stats(self, stats_data, match_id):
@@ -340,12 +374,13 @@ class Database:
 
 if __name__ == "__main__":
     database = Database("tennis.db")
-    database.make_new_table_matches()
-    database.make_new_table_players()
-    database.make_new_table_rankings()
-    database.make_new_table_statistics()
-    database.update_players_from_ranking()
-    database.fill_ranking("dd")
+    #database.make_new_table_matches()
+    #database.make_new_table_players()
+    #database.make_new_table_rankings()
+    #database.make_new_table_statistics()
+    #database.make_new_table_tournaments()
+    #database.update_players_from_ranking()
+    #database.fill_ranking("dd")
     database.add_match("dd")
     #database.show_stats()
     #print(database.player_from_rank(1))
