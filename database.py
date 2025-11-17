@@ -1,3 +1,4 @@
+import os
 import sqlite3
 import json
 from datetime import date, datetime
@@ -94,14 +95,16 @@ class Database:
                 rank INTEGER,
                 points INTEGER,
                 FOREIGN KEY (player_id) REFERENCES Players (player_id)
+                
+                UNIQUE(player_id, ranking_date)
             );
             ''')
 
             print("Database and tables created successfully.")
             conn.commit()  # Save the changes
 
-    def update_players_from_ranking(self):
-        with sqlite3.connect(self.name) as conn:#, open("rank/rankings_10112025.json", "r") as f:
+    def update_players_from_ranking(self, data):
+        with sqlite3.connect(self.name) as conn:#, open("base/rankings_10112025.json", "r") as f:
             cursor = conn.cursor()
             #data = json.load(f)
             ranking = data['rankings']
@@ -123,7 +126,7 @@ class Database:
             conn.commit()
 
     def fill_ranking(self, data):
-        with sqlite3.connect(self.name) as conn: #, open("rank/rankings_13112025.json", "r") as f:
+        with sqlite3.connect(self.name) as conn:#, open("rank/rankings_17112025.json", "r") as f:
             cursor = conn.cursor()
             #data = json.load(f)
             ranking = data['rankings']
@@ -145,7 +148,7 @@ class Database:
             conn.commit()
 
     def add_match(self, match_data):
-        with (sqlite3.connect(self.name) as conn):#, open("rank/alcarazevents_10112025.json", "r", encoding='utf-8') as f):
+        with (sqlite3.connect(self.name) as conn):#, open("base/alcarazevents_16112025.json", "r", encoding='utf-8') as f):
             cursor = conn.cursor()
             #match_data = json.load(f)
             for event in match_data['events']:
@@ -462,19 +465,24 @@ class Database:
 
 if __name__ == "__main__":
     database = Database("tennis.db")
-    database.update_players_from_ranking()
-    #database.fill_ranking("dd")
+    #database.update_players_from_ranking()
+    database.fill_ranking("dd")
     #database.add_match("dd")
-    #database.show_stats()
     #print(database.player_from_rank(1))
     #print(database.player_name_from_id(database.player_from_rank(1)))
+    #database.change_match_player_suffix(275923, 1)
     print(database.search('Players',
                          select_cols=['player_id'],
                          where_conditions={'name': 'Carlos Alcaraz'},
                          fetchone=True))
-    print(database.search('Players'))
+    #print(database.search('Players'))
     #database.add_additional_player_info("dd")
 
-    with open("rank/stats_10400727.json", "r", encoding='utf-8') as f:
-        data = json.load(f)  # We're using the string above
-        #database.add_match_stats(data, 14046430)
+    #for file in os.listdir("player"):
+    #    with open(f"player/{file}", "r", encoding='utf-8') as f:
+    #        data = json.load(f)  # We're using the string above
+    #        database.add_additional_player_info(data)
+
+    #with open("base/stats_10400727.json", "r", encoding='utf-8') as f:
+    #    data = json.load(f)  # We're using the string above
+    #    database.add_match_stats(data, 14046430)

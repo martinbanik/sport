@@ -31,6 +31,7 @@ class API_requests:
             rankings_json = rankings_raw.json()
 
             self.database.fill_ranking(rankings_json)
+            self.database.update_players_from_ranking(rankings_json)
 
             file = f"rank/rankings_{date.today().strftime('%d%m%Y')}.json"
             with open(file, 'w') as f:
