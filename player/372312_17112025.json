@@ -1,0 +1,146 @@
+{
+    "team": {
+        "name": "Jakub Mensik",
+        "slug": "mensik-jakub",
+        "shortName": "J. Mensik",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Bytom, Doubles Main, M-ITF-POL-01A",
+            "slug": "bytom-doubles-main-m-itf-pol-01a",
+            "category": {
+                "name": "ITF Men",
+                "slug": "itf-men",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 785,
+                "country": {},
+                "flag": "itf-men",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u062a\u0646\u0633 \u0627\u0644\u062f\u0648\u0644\u064a \u0644\u0644\u0631\u062c\u0627\u0644"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "ITF Poland F1, Men Doubles",
+                "slug": "itf-poland-f1-men-doubles",
+                "category": {
+                    "name": "ITF Men",
+                    "slug": "itf-men",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 785,
+                    "country": {},
+                    "flag": "itf-men",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u062a\u0646\u0633 \u0627\u0644\u062f\u0648\u0644\u064a \u0644\u0644\u0631\u062c\u0627\u0644"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 9,
+                "hasPerformanceGraphFeature": false,
+                "id": 12277,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0637\u0648\u0644\u0629 ITF \u0628\u0648\u0644\u0646\u062f\u0627 F1\u060c \u0632\u0648\u062c\u064a \u0631\u062c\u0627\u0644"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 102615,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u064a\u0648\u062a\u0648\u0645\u060c \u0632\u0648\u062c\u064a \u0631\u0626\u064a\u0633\u064a\u060c M-ITF-POL-01A"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 14907,
+        "playerTeamInfo": {
+            "birthplace": "Prostejov",
+            "height": 1.96,
+            "weight": 87,
+            "plays": "right-handed",
+            "prizeCurrent": 2307988,
+            "prizeTotal": 3723953,
+            "id": 5339,
+            "birthDateTimestamp": 1125532800,
+            "prizeCurrentRaw": {
+                "value": 2307988,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 3723953,
+                "currency": "EUR"
+            },
+            "currentRanking": 19
+        },
+        "nameCode": "MEN",
+        "ranking": 19,
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 372312,
+        "country": {
+            "alpha2": "CZ",
+            "alpha3": "CZE",
+            "name": "Czechia",
+            "slug": "czechia"
+        },
+        "fullName": "Jakub Mensik",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u064a\u0627\u0643\u0648\u0628 \u0645\u0646\u0633\u0643",
+                "hi": "\u091c\u0915\u0941\u092c \u092e\u0947\u0902\u0938\u093f\u0915",
+                "bn": "\u099c\u09cd\u09af\u09be\u0995\u09ac \u09ae\u09c7\u09a8\u09b8\u09bf\u0995"
+            },
+            "shortNameTranslation": {
+                "ar": "\u064a. \u0645\u0646\u0633\u0643"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

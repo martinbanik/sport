@@ -1,0 +1,146 @@
+{
+    "team": {
+        "name": "Gabriel Diallo",
+        "slug": "diallo-gabriel",
+        "shortName": "G. Diallo",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Wichita, Singles Main, M-ITF-USA-14A",
+            "slug": "wichita-singles-main-m-itf-usa-14a",
+            "category": {
+                "name": "ITF Men",
+                "slug": "itf-men",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 785,
+                "country": {},
+                "flag": "itf-men",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u062a\u0646\u0633 \u0627\u0644\u062f\u0648\u0644\u064a \u0644\u0644\u0631\u062c\u0627\u0644"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "ITF USA F14, Men Singles",
+                "slug": "itf-usa-f14-men-singles",
+                "category": {
+                    "name": "ITF Men",
+                    "slug": "itf-men",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 785,
+                    "country": {},
+                    "flag": "itf-men",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u062a\u0646\u0633 \u0627\u0644\u062f\u0648\u0644\u064a \u0644\u0644\u0631\u062c\u0627\u0644"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 4,
+                "hasPerformanceGraphFeature": false,
+                "id": 12387,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "ITF \u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u062d\u062f\u0629 F14\u060c \u0641\u0631\u062f\u064a \u0627\u0644\u0631\u062c\u0627\u0644"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 102815,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0648\u064a\u062a\u0634\u064a\u062a\u0627\u060c \u0641\u0631\u062f\u064a \u0631\u0626\u064a\u0633\u064a\u060c M-ITF-\u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u062d\u062f\u0629-14A"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 7301,
+        "playerTeamInfo": {
+            "birthplace": "Montreal, Canada",
+            "height": 2.03,
+            "weight": 90,
+            "plays": "right-handed",
+            "prizeCurrent": 1260780,
+            "prizeTotal": 2081454,
+            "id": 4920,
+            "birthDateTimestamp": 1001289600,
+            "prizeCurrentRaw": {
+                "value": 1260780,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 2081454,
+                "currency": "EUR"
+            },
+            "currentRanking": 34
+        },
+        "nameCode": "DIA",
+        "ranking": 41,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 280151,
+        "country": {
+            "alpha2": "CA",
+            "alpha3": "CAN",
+            "name": "Canada",
+            "slug": "canada"
+        },
+        "fullName": "Gabriel Diallo",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u063a\u0627\u0628\u0631\u064a\u064a\u0644 \u062f\u064a\u0627\u0644\u0648",
+                "hi": "\u0917\u0947\u092c\u094d\u0930\u093f\u092f\u0932 \u0921\u093f\u092f\u093e\u0932\u094b",
+                "bn": "\u0997\u09cd\u09af\u09be\u09ac\u09cd\u09b0\u09bf\u09af\u09bc\u09c7\u09b2 \u09a1\u09be\u09af\u09bc\u09be\u09b2\u09cb"
+            },
+            "shortNameTranslation": {
+                "ar": "\u063a. \u062f\u064a\u0627\u0644\u0648"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

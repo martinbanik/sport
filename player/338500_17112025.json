@@ -1,0 +1,150 @@
+{
+    "team": {
+        "name": "Arthur Fils",
+        "slug": "fils-arthur",
+        "shortName": "A. Fils",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Amersfoort, Netherlands",
+            "slug": "amersfoort-netherlands",
+            "category": {
+                "name": "Challenger",
+                "slug": "challenger",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 72,
+                "country": {},
+                "flag": "challenger",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                        "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                        "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Amersfoort, Holland",
+                "slug": "amersfoort-holland",
+                "category": {
+                    "name": "Challenger",
+                    "slug": "challenger",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 72,
+                    "country": {},
+                    "flag": "challenger",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                            "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                            "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 70,
+                "hasPerformanceGraphFeature": false,
+                "id": 3272,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0623\u0645\u064a\u0631\u0633\u0641\u0648\u0631\u062a\u060c \u0647\u0648\u0644\u0646\u062f\u0627"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 101857,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0623\u0645\u0633\u062a\u0631\u062f\u0627\u0645\u060c \u0647\u0648\u0644\u0646\u062f\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 19181,
+        "playerTeamInfo": {
+            "birthplace": "Bondoufle, France",
+            "height": 1.85,
+            "weight": 83,
+            "plays": "right-handed",
+            "prizeCurrent": 1211462,
+            "prizeTotal": 5109646,
+            "id": 4829,
+            "birthDateTimestamp": 1086998400,
+            "prizeCurrentRaw": {
+                "value": 1211462,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 5109646,
+                "currency": "EUR"
+            },
+            "currentRanking": 20
+        },
+        "nameCode": "FIL",
+        "ranking": 40,
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 338500,
+        "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+        },
+        "fullName": "Arthur Fils",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0622\u0631\u062b\u0631 \u0641\u064a\u0644\u0633"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0622. \u0641\u064a\u0644\u0633",
+                "hi": "\u090f. \u092b\u093f\u0932\u094d\u0938",
+                "bn": "\u098f. \u09ab\u09bf\u09b2\u09b8"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

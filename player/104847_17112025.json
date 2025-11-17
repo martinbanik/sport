@@ -1,0 +1,160 @@
+{
+    "team": {
+        "name": "Lorenzo Sonego",
+        "slug": "sonego-lorenzo",
+        "shortName": "L. Sonego",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Eastbourne, Great Britain",
+            "slug": "eastbourne-great-britain",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Eastbourne",
+                "slug": "eastbourne",
+                "primaryColorHex": "#ffe501",
+                "secondaryColorHex": "#00692a",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 1797,
+                "tennisPoints": 250,
+                "hasPerformanceGraphFeature": false,
+                "id": 2362,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0625\u064a\u0633\u062a\u0628\u0648\u0631\u0646",
+                        "hi": "\u0908\u0938\u094d\u091f\u092c\u0949\u0930\u094d\u0928",
+                        "bn": "\u0987\u09b8\u09cd\u099f\u09ac\u09cb\u09b0\u09cd\u09a8"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 96961,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0625\u064a\u0633\u062a\u0628\u0648\u0631\u0646\u060c \u0628\u0631\u064a\u0637\u0627\u0646\u064a\u0627 \u0627\u0644\u0639\u0638\u0645\u0649"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 21316,
+        "playerTeamInfo": {
+            "residence": "Turin, Italy",
+            "birthplace": "Turin, Italy",
+            "height": 1.91,
+            "weight": 76,
+            "plays": "right-handed",
+            "turnedPro": "2013",
+            "prizeCurrent": 1445880,
+            "prizeTotal": 8028271,
+            "id": 129,
+            "birthDateTimestamp": 800150400,
+            "prizeCurrentRaw": {
+                "value": 1445880,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 8028271,
+                "currency": "EUR"
+            },
+            "currentRanking": 39
+        },
+        "nameCode": "SON",
+        "ranking": 39,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 104847,
+        "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+        },
+        "fullName": "Lorenzo Sonego",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0644\u0648\u0631\u064a\u0646\u0632\u0648 \u0633\u0648\u0646\u064a\u063a\u0648",
+                "ru": "\u0421\u043e\u043d\u0435\u0433\u043e, \u041b\u043e\u0440\u0435\u043d\u0446\u043e"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0644. \u0633\u0648\u0646\u064a\u063a\u0648",
+                "hi": "\u090f\u0932. \u0938\u094b\u0928\u0947\u0917\u094b",
+                "bn": "\u098f\u09b2. \u09b8\u09cb\u09a8\u09c7\u0997\u09cb"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

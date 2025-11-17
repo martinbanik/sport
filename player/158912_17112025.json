@@ -1,0 +1,148 @@
+{
+    "team": {
+        "name": "Valentin Vacherot",
+        "slug": "vacherot-valentin",
+        "shortName": "V. Vacherot",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Francavilla, Italy",
+            "slug": "francavilla-italy",
+            "category": {
+                "name": "Challenger",
+                "slug": "challenger",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 72,
+                "country": {},
+                "flag": "challenger",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                        "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                        "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Francavilla, Italy",
+                "slug": "francavilla-italy",
+                "category": {
+                    "name": "Challenger",
+                    "slug": "challenger",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 72,
+                    "country": {},
+                    "flag": "challenger",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                            "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                            "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 91,
+                "hasPerformanceGraphFeature": false,
+                "id": 10247,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0641\u0631\u0627\u0646\u0643\u0627\u0641\u064a\u0644\u0644\u0627\u060c \u0625\u064a\u0637\u0627\u0644\u064a\u0627"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 99424,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0641\u0631\u0627\u0646\u0643\u0627\u0641\u064a\u0644\u0644\u0627\u060c \u0625\u064a\u0637\u0627\u0644\u064a\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 8111,
+        "playerTeamInfo": {
+            "birthplace": "Monaco",
+            "height": 1.93,
+            "weight": 83,
+            "plays": "right-handed",
+            "prizeCurrent": 1328782,
+            "prizeTotal": 1670943,
+            "id": 2304,
+            "birthDateTimestamp": 911174400,
+            "prizeCurrentRaw": {
+                "value": 1328782,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 1670943,
+                "currency": "EUR"
+            },
+            "currentRanking": 31
+        },
+        "nameCode": "VAC",
+        "ranking": 31,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 158912,
+        "country": {
+            "alpha2": "MC",
+            "alpha3": "MCO",
+            "name": "Monaco",
+            "slug": "monaco"
+        },
+        "fullName": "Valentin Vacherot",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0641\u0627\u0644\u0646\u062a\u064a\u0646 \u0641\u0627\u0634\u064a\u0631\u0648"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0641. \u0641\u0627\u0634\u064a\u0631\u0648"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

@@ -1,0 +1,152 @@
+{
+    "team": {
+        "name": "Luciano Darderi",
+        "slug": "darderi-luciano",
+        "shortName": "L. Darderi",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Iasi, Romania",
+            "slug": "iasi-romania",
+            "category": {
+                "name": "Challenger",
+                "slug": "challenger",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 72,
+                "country": {},
+                "flag": "challenger",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                        "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                        "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Iasi, Romania ",
+                "slug": "iasi-romania",
+                "category": {
+                    "name": "Challenger",
+                    "slug": "challenger",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 72,
+                    "country": {},
+                    "flag": "challenger",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                            "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                            "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 193,
+                "hasPerformanceGraphFeature": false,
+                "id": 15277,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u064a\u0627\u0634\u060c \u0631\u0648\u0645\u0627\u0646\u064a\u0627"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 101851,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u064a\u0627\u0633\u064a\u060c \u0631\u0648\u0645\u0627\u0646\u064a\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 12281,
+        "playerTeamInfo": {
+            "birthplace": "Villa Gesell, Argentina",
+            "height": 1.83,
+            "weight": 82,
+            "plays": "right-handed",
+            "prizeCurrent": 1413818,
+            "prizeTotal": 2745539,
+            "id": 4475,
+            "birthDateTimestamp": 1013644800,
+            "prizeCurrentRaw": {
+                "value": 1413818,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 2745539,
+                "currency": "EUR"
+            },
+            "currentRanking": 26
+        },
+        "nameCode": "DAR",
+        "ranking": 26,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 308084,
+        "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+        },
+        "fullName": "Luciano Darderi",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0644\u0648\u062a\u0634\u064a\u0627\u0646\u0648 \u062f\u0627\u0631\u062f\u064a\u0631\u064a",
+                "hi": "\u0932\u0942\u0938\u093f\u092f\u093e\u0928\u094b \u0921\u0930\u094d\u0921\u0947\u0930\u0940",
+                "bn": "\u09b2\u09c1\u09b8\u09bf\u09af\u09bc\u09be\u09a8\u09cb \u09a6\u09be\u09b0\u09a6\u09c7\u09b0\u09bf"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0644. \u062f\u0627\u0631\u062f\u064a\u0631\u064a"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

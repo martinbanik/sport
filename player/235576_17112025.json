@@ -1,0 +1,160 @@
+{
+    "team": {
+        "name": "Brandon Nakashima",
+        "slug": "nakashima-brandon",
+        "shortName": "B. Nakashima",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Eastbourne, Great Britain",
+            "slug": "eastbourne-great-britain",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Eastbourne",
+                "slug": "eastbourne",
+                "primaryColorHex": "#ffe501",
+                "secondaryColorHex": "#00692a",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 1797,
+                "tennisPoints": 250,
+                "hasPerformanceGraphFeature": false,
+                "id": 2362,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0625\u064a\u0633\u062a\u0628\u0648\u0631\u0646",
+                        "hi": "\u0908\u0938\u094d\u091f\u092c\u0949\u0930\u094d\u0928",
+                        "bn": "\u0987\u09b8\u09cd\u099f\u09ac\u09cb\u09b0\u09cd\u09a8"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 96961,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0625\u064a\u0633\u062a\u0628\u0648\u0631\u0646\u060c \u0628\u0631\u064a\u0637\u0627\u0646\u064a\u0627 \u0627\u0644\u0639\u0638\u0645\u0649"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 6820,
+        "playerTeamInfo": {
+            "residence": "United States",
+            "birthplace": "San Diego, CA, USA",
+            "height": 1.88,
+            "weight": 83,
+            "plays": "right-handed",
+            "turnedPro": "2020",
+            "prizeCurrent": 1574738,
+            "prizeTotal": 5672310,
+            "id": 2981,
+            "birthDateTimestamp": 996796800,
+            "prizeCurrentRaw": {
+                "value": 1574738,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 5672310,
+                "currency": "EUR"
+            },
+            "currentRanking": 33
+        },
+        "nameCode": "NAK",
+        "ranking": 33,
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 235576,
+        "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+        },
+        "fullName": "Brandon Nakashima",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0628\u0631\u0627\u0646\u062f\u0648\u0646 \u0646\u0627\u0643\u0627\u0634\u064a\u0645\u0627",
+                "ru": "\u041d\u0430\u043a\u0430\u0441\u0438\u043c\u0430, \u0411\u0440\u044d\u043d\u0434\u043e\u043d",
+                "hi": "\u092c\u094d\u0930\u0948\u0902\u0921\u0928 \u0928\u0915\u0936\u093f\u092e\u093e",
+                "bn": "\u09ac\u09bf \u09b2\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09a8 \u09a8\u09be\u0995\u09be\u099c\u09bf\u09ae\u09be"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0628. \u0646\u0627\u0643\u0627\u0634\u064a\u0645\u0627"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

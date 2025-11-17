@@ -1,0 +1,160 @@
+{
+    "team": {
+        "name": "Jannik Sinner",
+        "slug": "sinner-jannik",
+        "shortName": "J. Sinner",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "French Open, Paris, France",
+            "slug": "french-open-paris-france",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Roland Garros",
+                "slug": "roland-garros",
+                "primaryColorHex": "#c85a19",
+                "secondaryColorHex": "#01503d",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 39251,
+                "tennisPoints": 2000,
+                "hasPerformanceGraphFeature": false,
+                "id": 2480,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0637\u0648\u0644\u0629 \u0631\u0648\u0644\u0627\u0646 \u062c\u0627\u0631\u0648\u0633",
+                        "hi": "\u0930\u094b\u0932\u0948\u0902\u0921 \u0917\u0930\u094d\u0930\u094b\u0938",
+                        "bn": "\u09b0\u09cb\u09b2\u09cd\u09af\u09be\u09a8\u09cd\u09a1 \u0997\u09cd\u09af\u09be\u09b0\u09cb\u09b8"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 93468,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0637\u0648\u0644\u0629 \u0641\u0631\u0646\u0633\u0627 \u0627\u0644\u0645\u0641\u062a\u0648\u062d\u0629\u060c \u0628\u0627\u0631\u064a\u0633\u060c \u0641\u0631\u0646\u0633\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 213130,
+        "playerTeamInfo": {
+            "residence": "Monte Carlo, Monaco",
+            "birthplace": "San Candido, Italy",
+            "height": 1.91,
+            "weight": 77,
+            "plays": "right-handed",
+            "turnedPro": "2018",
+            "prizeCurrent": 12217755,
+            "prizeTotal": 44858441,
+            "id": 481,
+            "birthDateTimestamp": 997920000,
+            "prizeCurrentRaw": {
+                "value": 12217755,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 44858441,
+                "currency": "EUR"
+            },
+            "currentRanking": 1
+        },
+        "nameCode": "SIN",
+        "ranking": 2,
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 206570,
+        "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+        },
+        "fullName": "Jannik Sinner",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u064a\u0627\u0646\u0643 \u0633\u064a\u0646\u0631",
+                "ru": "\u0421\u0438\u043d\u043d\u0435\u0440, \u042f\u043d\u043d\u0438\u043a"
+            },
+            "shortNameTranslation": {
+                "ar": "\u064a. \u0633\u064a\u0646\u0631",
+                "hi": "\u091c\u0947. \u0938\u093f\u0928\u0930",
+                "bn": "\u099c\u09c7 \u09b8\u09bf\u09a8\u09be\u09b0"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

@@ -1,0 +1,156 @@
+{
+    "team": {
+        "name": "Alexandre Muller",
+        "slug": "muller-alexandre",
+        "shortName": "A. Muller",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Todi, Italy",
+            "slug": "todi-italy",
+            "category": {
+                "name": "Challenger",
+                "slug": "challenger",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 72,
+                "country": {},
+                "flag": "challenger",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                        "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                        "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Todi, Italy",
+                "slug": "todi-italy",
+                "category": {
+                    "name": "Challenger",
+                    "slug": "challenger",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 72,
+                    "country": {},
+                    "flag": "challenger",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                            "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                            "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 172,
+                "tennisPoints": 75,
+                "hasPerformanceGraphFeature": false,
+                "id": 3434,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u0648\u062f\u064a\u060c \u0625\u064a\u0637\u0627\u0644\u064a\u0627"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 101848,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u062a\u0648\u062f\u064a\u060c \u0625\u064a\u0637\u0627\u0644\u064a\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 6048,
+        "playerTeamInfo": {
+            "residence": "France",
+            "birthplace": "Poissy, France",
+            "height": 1.83,
+            "weight": 75,
+            "plays": "right-handed",
+            "turnedPro": "2014",
+            "prizeCurrent": 1236767,
+            "prizeTotal": 3296901,
+            "id": 498,
+            "birthDateTimestamp": 854755200,
+            "prizeCurrentRaw": {
+                "value": 1236767,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 3296901,
+                "currency": "EUR"
+            },
+            "currentRanking": 42
+        },
+        "nameCode": "MUL",
+        "ranking": 42,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 88992,
+        "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+        },
+        "fullName": "Alexandre Muller",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0623\u0644\u0643\u0633\u0646\u062f\u0631 \u0645\u0648\u0644\u0631",
+                "ru": "\u041c\u044e\u043b\u043b\u0435\u0440, \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0435"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0623. \u0645\u0648\u0644\u0631",
+                "hi": "\u090f. \u092e\u094d\u092f\u0942\u0932\u0930",
+                "bn": "\u098f. \u09ae\u09c1\u09b2\u09be\u09b0"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

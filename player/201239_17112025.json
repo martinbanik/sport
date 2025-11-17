@@ -1,0 +1,158 @@
+{
+    "team": {
+        "name": "Alex de Minaur",
+        "slug": "de-minaur-alex",
+        "shortName": "A. de Minaur",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "s-Hertogenbosch, Netherlands, Doubles",
+            "slug": "s-hertogenbosch-netherlands-doubles",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "'s-Hertogenbosch, Doubles",
+                "slug": "s-hertogenbosch-doubles",
+                "primaryColorHex": "#92c462",
+                "secondaryColorHex": "#6c9d3c",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 102,
+                "tennisPoints": 250,
+                "hasPerformanceGraphFeature": false,
+                "id": 2463,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0647\u064a\u0631\u062a\u0648\u062c\u0646\u0628\u0648\u0634\u060c \u0632\u0648\u062c\u064a"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 96943,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0633-\u0647\u0631\u062a\u0648\u062c\u0646\u0628\u0648\u0634\u060c \u0647\u0648\u0644\u0646\u062f\u0627\u060c \u0632\u0648\u062c\u064a"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 31167,
+        "playerTeamInfo": {
+            "residence": "Alicante, Spain",
+            "birthplace": "Sydney, Australia",
+            "height": 1.83,
+            "weight": 69,
+            "plays": "right-handed",
+            "turnedPro": "2015",
+            "prizeCurrent": 3884312,
+            "prizeTotal": 17725723,
+            "id": 26,
+            "birthDateTimestamp": 919209600,
+            "prizeCurrentRaw": {
+                "value": 3884312,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 17725723,
+                "currency": "EUR"
+            },
+            "currentRanking": 7
+        },
+        "nameCode": "DE",
+        "ranking": 7,
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 201239,
+        "country": {
+            "alpha2": "AU",
+            "alpha3": "AUS",
+            "name": "Australia",
+            "slug": "australia"
+        },
+        "fullName": "Alex de Minaur",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0623\u0644\u064a\u0643\u0633 \u062f\u064a \u0645\u064a\u0646\u0627\u0648\u0631",
+                "ru": "\u0414\u0435 \u041c\u0438\u043d\u0430\u0443\u0440, \u0410\u043b\u0435\u043a\u0441"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0623. \u062f\u064a \u0645\u064a\u0646\u0627\u0648\u0631",
+                "hi": "\u090f. \u0921\u0940 \u092e\u093f\u0928\u094c\u0930",
+                "bn": "\u098f. \u09a1\u09bf \u09ae\u09bf\u09a8\u09be\u0989\u09b0"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

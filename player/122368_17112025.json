@@ -1,0 +1,158 @@
+{
+    "team": {
+        "name": "Tallon Griekspoor",
+        "slug": "griekspoor-tallon",
+        "shortName": "T. Griekspoor",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Wimbledon, London, Great Britain, Doubles",
+            "slug": "wimbledon-london-great-britain-doubles",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Wimbledon, Doubles",
+                "slug": "wimbledon-doubles",
+                "primaryColorHex": "#006632",
+                "secondaryColorHex": "#54008b",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 1137,
+                "tennisPoints": 2000,
+                "hasPerformanceGraphFeature": false,
+                "id": 2375,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0637\u0648\u0644\u0629 \u0648\u064a\u0645\u0628\u0644\u062f\u0648\u0646\u060c \u0632\u0648\u062c\u064a"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 97047,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0637\u0648\u0644\u0629 \u0648\u064a\u0645\u0628\u0644\u062f\u0648\u0646\u060c \u0644\u0646\u062f\u0646\u060c \u0628\u0631\u064a\u0637\u0627\u0646\u064a\u0627 \u0627\u0644\u0639\u0638\u0645\u0649\u060c \u0632\u0648\u062c\u064a"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 12548,
+        "playerTeamInfo": {
+            "residence": "Nieuw Vennep, Netherlands",
+            "birthplace": "Haarlem, Netherlands",
+            "height": 1.88,
+            "weight": 85,
+            "plays": "right-handed",
+            "turnedPro": "2015",
+            "prizeCurrent": 1557333,
+            "prizeTotal": 6015619,
+            "id": 292,
+            "birthDateTimestamp": 836265600,
+            "prizeCurrentRaw": {
+                "value": 1557333,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 6015619,
+                "currency": "EUR"
+            },
+            "currentRanking": 25
+        },
+        "nameCode": "GRI",
+        "ranking": 25,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 122368,
+        "country": {
+            "alpha2": "NL",
+            "alpha3": "NLD",
+            "name": "Netherlands",
+            "slug": "netherlands"
+        },
+        "fullName": "Tallon Griekspoor",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u062a\u0627\u0644\u0648\u0646 \u063a\u0631\u064a\u0643\u0633\u0628\u0648\u0631",
+                "ru": "\u0413\u0440\u0438\u043a\u0441\u043f\u043e\u0440, \u0422\u0430\u043b\u043b\u043e\u043d"
+            },
+            "shortNameTranslation": {
+                "ar": "\u062a. \u063a\u0631\u064a\u0643\u0633\u0628\u0648\u0631",
+                "hi": "\u091f\u0940. \u0917\u094d\u0930\u0940\u0915\u094d\u0938\u092a\u0942\u0930",
+                "bn": "\u099f\u09bf. \u0997\u09cd\u09b0\u09bf\u0995\u09b8\u09aa\u09c1\u09b0"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

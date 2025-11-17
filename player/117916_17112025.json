@@ -1,0 +1,159 @@
+{
+    "team": {
+        "name": "Denis Shapovalov",
+        "slug": "shapovalov-denis",
+        "shortName": "D. Shapovalov",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Stuttgart, Germany",
+            "slug": "stuttgart-germany",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Stuttgart",
+                "slug": "stuttgart",
+                "primaryColorHex": "#a1a7aa",
+                "secondaryColorHex": "#415665",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 2464,
+                "tennisPoints": 250,
+                "hasPerformanceGraphFeature": false,
+                "id": 2483,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0634\u062a\u0648\u062a\u063a\u0627\u0631\u062a",
+                        "hi": "\u0938\u094d\u091f\u0941\u091f\u0917\u093e\u0930\u094d\u091f",
+                        "bn": "\u09b8\u09cd\u099f\u09c1\u099f\u0997\u09be\u09b0\u09cd\u099f"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 96948,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0634\u062a\u0648\u062a\u063a\u0627\u0631\u062a\u060c \u0623\u0644\u0645\u0627\u0646\u064a\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 13597,
+        "playerTeamInfo": {
+            "residence": "Nassau, Bahamas",
+            "height": 1.85,
+            "weight": 75,
+            "plays": "left-handed",
+            "turnedPro": "2017",
+            "prizeCurrent": 1756487,
+            "prizeTotal": 12527284,
+            "id": 24,
+            "birthDateTimestamp": 924134400,
+            "prizeCurrentRaw": {
+                "value": 1756487,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 12527284,
+                "currency": "EUR"
+            },
+            "currentRanking": 23
+        },
+        "nameCode": "SHA",
+        "ranking": 23,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 117916,
+        "country": {
+            "alpha2": "CA",
+            "alpha3": "CAN",
+            "name": "Canada",
+            "slug": "canada"
+        },
+        "fullName": "Denis Shapovalov",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u062f\u064a\u0646\u064a\u0633 \u0634\u0627\u0628\u0648\u0641\u0627\u0644\u0648\u0641",
+                "ru": "\u0428\u0430\u043f\u043e\u0432\u0430\u043b\u043e\u0432, \u0414\u0435\u043d\u0438\u0441"
+            },
+            "shortNameTranslation": {
+                "ar": "\u062f. \u0634\u0627\u0628\u0648\u0641\u0627\u0644\u0648\u0641",
+                "hi": "\u0921\u0940. \u0936\u093e\u092a\u094b\u0935\u093e\u0932\u094b\u0935",
+                "bn": "\u09a1\u09bf. \u09b6\u09be\u09aa\u09cb\u09ad\u09be\u09b2\u09ad"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

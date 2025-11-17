@@ -1,0 +1,158 @@
+{
+    "team": {
+        "name": "Tommy Paul",
+        "slug": "paul-tommy",
+        "shortName": "T. Paul",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Wimbledon, London, Great Britain, Doubles",
+            "slug": "wimbledon-london-great-britain-doubles",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Wimbledon, Doubles",
+                "slug": "wimbledon-doubles",
+                "primaryColorHex": "#006632",
+                "secondaryColorHex": "#54008b",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 1137,
+                "tennisPoints": 2000,
+                "hasPerformanceGraphFeature": false,
+                "id": 2375,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0637\u0648\u0644\u0629 \u0648\u064a\u0645\u0628\u0644\u062f\u0648\u0646\u060c \u0632\u0648\u062c\u064a"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 97047,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0637\u0648\u0644\u0629 \u0648\u064a\u0645\u0628\u0644\u062f\u0648\u0646\u060c \u0644\u0646\u062f\u0646\u060c \u0628\u0631\u064a\u0637\u0627\u0646\u064a\u0627 \u0627\u0644\u0639\u0638\u0645\u0649\u060c \u0632\u0648\u062c\u064a"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 17323,
+        "playerTeamInfo": {
+            "residence": "Greenville, NC, USA",
+            "birthplace": "Voorhees, NJ, USA",
+            "height": 1.85,
+            "weight": 82,
+            "plays": "right-handed",
+            "turnedPro": "2015",
+            "prizeCurrent": 1970960,
+            "prizeTotal": 10878100,
+            "id": 278,
+            "birthDateTimestamp": 863827200,
+            "prizeCurrentRaw": {
+                "value": 1970960,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 10878100,
+                "currency": "EUR"
+            },
+            "currentRanking": 14
+        },
+        "nameCode": "PAU",
+        "ranking": 20,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 138546,
+        "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+        },
+        "fullName": "Tommy Paul",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u062a\u0648\u0645\u064a \u0628\u0648\u0644",
+                "ru": "\u041f\u043e\u043b, \u0422\u043e\u043c\u043c\u0438"
+            },
+            "shortNameTranslation": {
+                "ar": "\u062a. \u0628\u0648\u0644",
+                "hi": "\u091f\u0940. \u092a\u0949\u0932",
+                "bn": "\u099f\u09bf. \u09aa\u09b2"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

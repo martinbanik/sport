@@ -1,0 +1,145 @@
+{
+    "team": {
+        "name": "Joao Fonseca",
+        "slug": "fonseca-joao",
+        "shortName": "J. Fonseca",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "French Open, Boys, Doubles",
+            "slug": "french-open-boys-doubles",
+            "category": {
+                "name": "Juniors",
+                "slug": "juniors",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 1474,
+                "country": {},
+                "flag": "juniors",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u0644\u0646\u0627\u0634\u0626\u064a\u0646"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Roland Garros, Boys, Doubles",
+                "slug": "roland-garros-boys-doubles",
+                "category": {
+                    "name": "Juniors",
+                    "slug": "juniors",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 1474,
+                    "country": {},
+                    "flag": "juniors",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0627\u0644\u0646\u0627\u0634\u0626\u064a\u0646"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 29,
+                "tennisPoints": 2000,
+                "hasPerformanceGraphFeature": false,
+                "id": 10347,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u0648\u0631\u0629 \u0631\u0648\u0644\u0627\u0646 \u063a\u0627\u0631\u0648\u0633 \u0627\u0644\u062f\u0648\u0644\u064a\u0629\u060c \u0627\u0644\u0623\u0648\u0644\u0627\u062f\u060c \u0632\u0648\u062c\u064a"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 102281,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0637\u0648\u0644\u0629 \u0641\u0631\u0646\u0633\u0627 \u0627\u0644\u0645\u0641\u062a\u0648\u062d\u0629\u060c \u0627\u0644\u0623\u0648\u0644\u0627\u062f\u060c \u0632\u0648\u062c\u064a"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 55941,
+        "playerTeamInfo": {
+            "birthplace": "Rio de janeiro",
+            "height": 1.88,
+            "weight": 81,
+            "plays": "right-handed",
+            "prizeCurrent": 1528756,
+            "prizeTotal": 2255310,
+            "id": 5787,
+            "birthDateTimestamp": 1156118400,
+            "prizeCurrentRaw": {
+                "value": 1528756,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 2255310,
+                "currency": "EUR"
+            },
+            "currentRanking": 19
+        },
+        "nameCode": "FON",
+        "ranking": 24,
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 403869,
+        "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+        },
+        "fullName": "Joao Fonseca",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u062c\u0648\u0627\u0648 \u0641\u0648\u0646\u0633\u064a\u0643\u0627"
+            },
+            "shortNameTranslation": {
+                "ar": "\u062c. \u0641\u0648\u0646\u0633\u064a\u0643\u0627"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

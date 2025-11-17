@@ -1,0 +1,160 @@
+{
+    "team": {
+        "name": "Alejandro Davidovich Fokina",
+        "slug": "davidovich-fokina-alejandro",
+        "shortName": "A. Davidovich Fokina",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "French Open, Paris, France",
+            "slug": "french-open-paris-france",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Roland Garros",
+                "slug": "roland-garros",
+                "primaryColorHex": "#c85a19",
+                "secondaryColorHex": "#01503d",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 39251,
+                "tennisPoints": 2000,
+                "hasPerformanceGraphFeature": false,
+                "id": 2480,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0637\u0648\u0644\u0629 \u0631\u0648\u0644\u0627\u0646 \u062c\u0627\u0631\u0648\u0633",
+                        "hi": "\u0930\u094b\u0932\u0948\u0902\u0921 \u0917\u0930\u094d\u0930\u094b\u0938",
+                        "bn": "\u09b0\u09cb\u09b2\u09cd\u09af\u09be\u09a8\u09cd\u09a1 \u0997\u09cd\u09af\u09be\u09b0\u09cb\u09b8"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 93468,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0637\u0648\u0644\u0629 \u0641\u0631\u0646\u0633\u0627 \u0627\u0644\u0645\u0641\u062a\u0648\u062d\u0629\u060c \u0628\u0627\u0631\u064a\u0633\u060c \u0641\u0631\u0646\u0633\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 14373,
+        "playerTeamInfo": {
+            "residence": "Fuengirola",
+            "birthplace": "Malaga, Spain",
+            "height": 1.8,
+            "weight": 80,
+            "plays": "right-handed",
+            "turnedPro": "2019",
+            "prizeCurrent": 2342671,
+            "prizeTotal": 8716404,
+            "id": 247,
+            "birthDateTimestamp": 928540800,
+            "prizeCurrentRaw": {
+                "value": 2342671,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 8716404,
+                "currency": "EUR"
+            },
+            "currentRanking": 14
+        },
+        "nameCode": "DAV",
+        "ranking": 14,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 157456,
+        "country": {
+            "alpha2": "ES",
+            "alpha3": "ESP",
+            "name": "Spain",
+            "slug": "spain"
+        },
+        "fullName": "Alejandro Davidovich Fokina",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0623\u0644\u064a\u062e\u0627\u0646\u062f\u0631\u0648 \u062f\u0627\u0641\u064a\u062f\u0648\u0641\u064a\u062a\u0634 \u0641\u0648\u0643\u064a\u0646\u0627",
+                "ru": "\u0414\u0430\u0432\u0438\u0434\u043e\u0432\u0438\u0447 \u0424\u043e\u043a\u0438\u043d\u0430, \u0410\u043b\u0435\u0445\u0430\u043d\u0434\u0440\u043e"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0623. \u0641\u0648\u0643\u064a\u0646\u0627",
+                "hi": "\u090f. \u0921\u0947\u0935\u093f\u0921\u094b\u0935\u093f\u091a \u092b\u094b\u0915\u093f\u0928\u093e",
+                "bn": "\u098f. \u09a1\u09c7\u09ad\u09bf\u09a1\u09cb\u09ad\u09bf\u099a \u09ab\u09cb\u0995\u09bf\u09a8\u09be"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

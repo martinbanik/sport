@@ -1,0 +1,152 @@
+{
+    "team": {
+        "name": "Ben Shelton",
+        "slug": "shelton-ben",
+        "shortName": "B. Shelton",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Rome, USA",
+            "slug": "rome-usa",
+            "category": {
+                "name": "Challenger",
+                "slug": "challenger",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 72,
+                "country": {},
+                "flag": "challenger",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                        "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                        "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Rome, USA",
+                "slug": "rome-usa",
+                "category": {
+                    "name": "Challenger",
+                    "slug": "challenger",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 72,
+                    "country": {},
+                    "flag": "challenger",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                            "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                            "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 33,
+                "hasPerformanceGraphFeature": false,
+                "id": 18745,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0648\u0645\u0627\u060c \u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u062d\u062f\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 101854,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0648\u0645\u0627\u060c \u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u062d\u062f\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 38382,
+        "playerTeamInfo": {
+            "birthplace": "Atlanta, GA, USA",
+            "height": 1.93,
+            "weight": 88,
+            "plays": "left-handed",
+            "prizeCurrent": 3714598,
+            "prizeTotal": 8646887,
+            "id": 4948,
+            "birthDateTimestamp": 1034121600,
+            "prizeCurrentRaw": {
+                "value": 3714598,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 8646887,
+                "currency": "EUR"
+            },
+            "currentRanking": 9
+        },
+        "nameCode": "SHE",
+        "ranking": 9,
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 385485,
+        "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+        },
+        "fullName": "Ben Shelton",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0628\u0646 \u0634\u064a\u0644\u062a\u0648\u0646"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0628. \u0634\u064a\u0644\u062a\u0648\u0646",
+                "hi": "\u092c\u0940. \u0936\u0947\u0932\u094d\u091f\u0928",
+                "bn": "\u09ac\u09bf. \u09b6\u09c7\u09b2\u099f\u09a8,"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

@@ -1,0 +1,156 @@
+{
+    "team": {
+        "name": "Frances Tiafoe",
+        "slug": "tiafoe-frances",
+        "shortName": "F. Tiafoe",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "French Open, Paris, France, Doubles",
+            "slug": "french-open-paris-france-doubles",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Roland Garros, Doubles",
+                "slug": "roland-garros-doubles",
+                "primaryColorHex": "#c85a19",
+                "secondaryColorHex": "#01503d",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 1263,
+                "tennisPoints": 2000,
+                "hasPerformanceGraphFeature": false,
+                "id": 2393,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u0648\u0631\u0629 \u0631\u0648\u0644\u0627\u0646 \u063a\u0627\u0631\u0648\u0633 \u0627\u0644\u062f\u0648\u0644\u064a\u0629\u060c \u0632\u0648\u062c\u064a"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 96983,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0637\u0648\u0644\u0629 \u0641\u0631\u0646\u0633\u0627 \u0627\u0644\u0645\u0641\u062a\u0648\u062d\u0629\u060c \u0628\u0627\u0631\u064a\u0633\u060c \u0641\u0631\u0646\u0633\u0627\u060c \u0632\u0648\u062c\u064a"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 20434,
+        "playerTeamInfo": {
+            "residence": "Orlando, FL, USA",
+            "birthplace": "Hyattsville, MD, USA",
+            "height": 1.88,
+            "weight": 86,
+            "plays": "right-handed",
+            "turnedPro": "2015",
+            "prizeCurrent": 1627365,
+            "prizeTotal": 13384144,
+            "id": 34,
+            "birthDateTimestamp": 885254400,
+            "prizeCurrentRaw": {
+                "value": 1627365,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 13384144,
+                "currency": "EUR"
+            },
+            "currentRanking": 30
+        },
+        "nameCode": "TIA",
+        "ranking": 30,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 101101,
+        "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+        },
+        "fullName": "Frances Tiafoe",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0641\u0631\u0627\u0646\u0633\u064a\u0633 \u062a\u064a\u0627\u0641\u0648\u064a",
+                "ru": "\u0422\u0438\u0430\u0444\u043e, \u0424\u0440\u044d\u043d\u0441\u0438\u0441"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0641. \u062a\u064a\u0627\u0641\u0648\u064a",
+                "hi": "\u090f\u092b. \u091f\u093f\u092f\u093e\u092b\u094b",
+                "bn": "\u098f\u09ab. \u099f\u09bf\u09af\u09bc\u09be\u09ab\u09cb"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

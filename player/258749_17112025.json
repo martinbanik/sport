@@ -1,0 +1,159 @@
+{
+    "team": {
+        "name": "Jack Draper",
+        "slug": "draper-jack",
+        "shortName": "J. Draper",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Eastbourne, Great Britain",
+            "slug": "eastbourne-great-britain",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Eastbourne",
+                "slug": "eastbourne",
+                "primaryColorHex": "#ffe501",
+                "secondaryColorHex": "#00692a",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 1797,
+                "tennisPoints": 250,
+                "hasPerformanceGraphFeature": false,
+                "id": 2362,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0625\u064a\u0633\u062a\u0628\u0648\u0631\u0646",
+                        "hi": "\u0908\u0938\u094d\u091f\u092c\u0949\u0930\u094d\u0928",
+                        "bn": "\u0987\u09b8\u09cd\u099f\u09ac\u09cb\u09b0\u09cd\u09a8"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 96961,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0625\u064a\u0633\u062a\u0628\u0648\u0631\u0646\u060c \u0628\u0631\u064a\u0637\u0627\u0646\u064a\u0627 \u0627\u0644\u0639\u0638\u0645\u0649"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 27349,
+        "playerTeamInfo": {
+            "residence": "London",
+            "birthplace": "Sutton, England",
+            "height": 1.93,
+            "weight": 85,
+            "plays": "left-handed",
+            "turnedPro": "2018",
+            "prizeCurrent": 2976882,
+            "prizeTotal": 7346110,
+            "id": 3074,
+            "birthDateTimestamp": 1008979200,
+            "prizeCurrentRaw": {
+                "value": 2976882,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 7346110,
+                "currency": "EUR"
+            },
+            "currentRanking": 4
+        },
+        "nameCode": "DRA",
+        "ranking": 10,
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 258749,
+        "country": {
+            "alpha2": "GB",
+            "alpha3": "GBR",
+            "name": "United Kingdom",
+            "slug": "united-kingdom"
+        },
+        "fullName": "Jack Draper",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u062c\u0627\u0643 \u062f\u0631\u0627\u0628\u0631"
+            },
+            "shortNameTranslation": {
+                "ar": "\u062c. \u062f\u0631\u0627\u0628\u0631",
+                "hi": "\u091c\u0947. \u0921\u094d\u0930\u0947\u092a\u0930",
+                "bn": "\u099c\u09c7. \u09a1\u09cd\u09b0\u09c7\u09aa\u09be\u09b0"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

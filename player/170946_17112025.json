@@ -1,0 +1,153 @@
+{
+    "team": {
+        "name": "Zizou Bergs",
+        "slug": "bergs-zizou",
+        "shortName": "Z. Bergs",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Amersfoort, Netherlands",
+            "slug": "amersfoort-netherlands",
+            "category": {
+                "name": "Challenger",
+                "slug": "challenger",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 72,
+                "country": {},
+                "flag": "challenger",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                        "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                        "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Amersfoort, Holland",
+                "slug": "amersfoort-holland",
+                "category": {
+                    "name": "Challenger",
+                    "slug": "challenger",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 72,
+                    "country": {},
+                    "flag": "challenger",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                            "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                            "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 70,
+                "hasPerformanceGraphFeature": false,
+                "id": 3272,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0623\u0645\u064a\u0631\u0633\u0641\u0648\u0631\u062a\u060c \u0647\u0648\u0644\u0646\u062f\u0627"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 101857,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0623\u0645\u0633\u062a\u0631\u062f\u0627\u0645\u060c \u0647\u0648\u0644\u0646\u062f\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 8551,
+        "playerTeamInfo": {
+            "residence": "Neerpelt, Belgium",
+            "birthplace": "Lommel, Belgium",
+            "height": 1.85,
+            "weight": 88,
+            "plays": "right-handed",
+            "turnedPro": "2017",
+            "prizeCurrent": 1202689,
+            "prizeTotal": 2531037,
+            "id": 636,
+            "birthDateTimestamp": 928368000,
+            "prizeCurrentRaw": {
+                "value": 1202689,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 2531037,
+                "currency": "EUR"
+            },
+            "currentRanking": 43
+        },
+        "nameCode": "BER",
+        "ranking": 43,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 170946,
+        "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+        },
+        "fullName": "Zizou Bergs",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0632\u064a\u0632\u0648 \u0628\u064a\u0631\u063a\u0633",
+                "ru": "\u0411\u0435\u0440\u0433\u0441, \u0417\u0438\u0437\u0443",
+                "hi": "\u091c\u093f\u091c\u0942 \u092c\u0930\u094d\u0917\u094d\u0938",
+                "bn": "\u099c\u09bf\u099c\u09c1 \u09ad\u09be\u09b0\u09cd\u0997\u09b8"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0632. \u0628\u064a\u0631\u063a\u0633"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

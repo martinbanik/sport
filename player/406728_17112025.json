@@ -1,0 +1,146 @@
+{
+    "team": {
+        "name": "Alex Michelsen",
+        "slug": "michelsen-alex",
+        "shortName": "A. Michelsen",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Lakewood, Doubles Main, M-ITF-USA-23A",
+            "slug": "lakewood-doubles-main-m-itf-usa-23a",
+            "category": {
+                "name": "ITF Men",
+                "slug": "itf-men",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 785,
+                "country": {},
+                "flag": "itf-men",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u062a\u0646\u0633 \u0627\u0644\u062f\u0648\u0644\u064a \u0644\u0644\u0631\u062c\u0627\u0644"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "ITF USA F23, Men Doubles",
+                "slug": "itf-usa-f23-men-doubles",
+                "category": {
+                    "name": "ITF Men",
+                    "slug": "itf-men",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 785,
+                    "country": {},
+                    "flag": "itf-men",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u062a\u0646\u0633 \u0627\u0644\u062f\u0648\u0644\u064a \u0644\u0644\u0631\u062c\u0627\u0644"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 3,
+                "hasPerformanceGraphFeature": false,
+                "id": 12546,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0637\u0648\u0644\u0629 ITF \u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u062d\u062f\u0629 F23\u060c \u0632\u0648\u062c\u064a \u0627\u0644\u0631\u062c\u0627\u0644"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 103830,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0644\u064a\u0643 \u0648\u0648\u062f\u060c \u0632\u0648\u062c\u064a \u0631\u0626\u064a\u0633\u064a\u060c M-ITF-USA-23A"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 5716,
+        "playerTeamInfo": {
+            "birthplace": "Laguna Hills, CA, USA",
+            "height": 1.93,
+            "weight": 79,
+            "plays": "right-handed",
+            "prizeCurrent": 1273927,
+            "prizeTotal": 3240351,
+            "id": 5333,
+            "birthDateTimestamp": 1093392000,
+            "prizeCurrentRaw": {
+                "value": 1273927,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 3240351,
+                "currency": "EUR"
+            },
+            "currentRanking": 38
+        },
+        "nameCode": "MIC",
+        "ranking": 38,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 406728,
+        "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+        },
+        "fullName": "Alex Michelsen",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0623\u0644\u064a\u0643\u0633 \u0645\u064a\u0634\u064a\u0644\u0633\u0646",
+                "hi": "\u090f\u0932\u0947\u0915\u094d\u0938 \u092e\u093f\u0915\u0947\u0932\u0938\u0928",
+                "bn": "\u0985\u09cd\u09af\u09be\u09b2\u09c7\u0995\u09cd\u09b8 \u09ae\u09bf\u09b6\u09c7\u09b2\u09b8\u09c7\u09a8"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0623. \u0645\u064a\u0634\u064a\u0644\u0633\u0646"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

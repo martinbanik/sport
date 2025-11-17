@@ -1,0 +1,153 @@
+{
+    "team": {
+        "name": "Corentin Moutet",
+        "slug": "moutet-corentin",
+        "shortName": "C. Moutet",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Lyon, France",
+            "slug": "lyon-france",
+            "category": {
+                "name": "Challenger",
+                "slug": "challenger",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 72,
+                "country": {},
+                "flag": "challenger",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                        "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                        "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Lyon, France",
+                "slug": "lyon-france",
+                "category": {
+                    "name": "Challenger",
+                    "slug": "challenger",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 72,
+                    "country": {},
+                    "flag": "challenger",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                            "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                            "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 137,
+                "hasPerformanceGraphFeature": false,
+                "id": 6787,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0644\u064a\u0648\u0646\u060c \u0641\u0631\u0646\u0633\u0627"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 102432,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0644\u064a\u0648\u0646\u060c \u0641\u0631\u0646\u0633\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 9303,
+        "playerTeamInfo": {
+            "residence": "Boulogne-Billancourt, France",
+            "birthplace": "Paris, France",
+            "height": 1.8,
+            "weight": 71,
+            "plays": "left-handed",
+            "turnedPro": "2016",
+            "prizeCurrent": 1332589,
+            "prizeTotal": 4844805,
+            "id": 180,
+            "birthDateTimestamp": 924480000,
+            "prizeCurrentRaw": {
+                "value": 1332589,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 4844805,
+                "currency": "EUR"
+            },
+            "currentRanking": 24
+        },
+        "nameCode": "MOU",
+        "ranking": 35,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 175014,
+        "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+        },
+        "fullName": "Corentin Moutet",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0643\u0648\u0631\u0646\u062a\u064a\u0646 \u0645\u0648\u062a\u064a\u0647",
+                "ru": "\u041c\u0443\u0442\u0435, \u041a\u043e\u0440\u0435\u043d\u0442\u0438\u043d",
+                "hi": "\u0915\u094b\u0930\u0947\u0902\u091f\u093f\u0928 \u092e\u093e\u0909\u091f\u0947",
+                "bn": "\u0995\u09cb\u09b0\u09c7\u09a8\u09cd\u099f\u09bf\u09a8 \u09ae\u09be\u0989\u099f\u09c7\u099f"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0643. \u0645\u0648\u062a\u064a\u0647"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

@@ -1,0 +1,156 @@
+{
+    "team": {
+        "name": "Stefanos Tsitsipas",
+        "slug": "tsitsipas-stefanos",
+        "shortName": "S. Tsitsipas",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Stuttgart, Germany, Doubles",
+            "slug": "stuttgart-germany-doubles",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Stuttgart, Doubles",
+                "slug": "stuttgart-doubles",
+                "primaryColorHex": "#a1a7aa",
+                "secondaryColorHex": "#415665",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 144,
+                "tennisPoints": 250,
+                "hasPerformanceGraphFeature": false,
+                "id": 2378,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0634\u062a\u0648\u062a\u063a\u0627\u0631\u062a\u060c \u0632\u0648\u062c\u064a"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 96946,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0634\u062a\u0648\u062a\u063a\u0627\u0631\u062a\u060c \u0623\u0644\u0645\u0627\u0646\u064a\u0627\u060c \u0632\u0648\u062c\u064a"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 51732,
+        "playerTeamInfo": {
+            "residence": "Nicosia, Cyprus",
+            "birthplace": "Athens, Greece",
+            "height": 1.93,
+            "weight": 90,
+            "plays": "right-handed",
+            "turnedPro": "2016",
+            "prizeCurrent": 1763353,
+            "prizeTotal": 31375556,
+            "id": 11,
+            "birthDateTimestamp": 902880000,
+            "prizeCurrentRaw": {
+                "value": 1763353,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 31375556,
+                "currency": "EUR"
+            },
+            "currentRanking": 29
+        },
+        "nameCode": "TSI",
+        "ranking": 34,
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 122366,
+        "country": {
+            "alpha2": "GR",
+            "alpha3": "GRC",
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "fullName": "Stefanos Tsitsipas",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0633\u062a\u064a\u0641\u0627\u0646\u0648\u0633 \u062a\u0633\u064a\u062a\u0633\u064a\u0628\u0627\u0633",
+                "ru": "\u0426\u0438\u0446\u0438\u043f\u0430\u0441, \u0421\u0442\u0435\u0444\u0430\u043d\u043e\u0441"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0633. \u062a\u0633\u064a\u062a\u0633\u064a\u0628\u0627\u0633",
+                "hi": "\u090f\u0938. \u0924\u094d\u0938\u093f\u0924\u094d\u0938\u093f\u092a\u093e\u0938",
+                "bn": "\u098f\u09b8 \u09b8\u09bf\u099f\u09b8\u09bf\u09aa\u09be\u09b8"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

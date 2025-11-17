@@ -1,0 +1,152 @@
+{
+    "team": {
+        "name": "Arthur Rinderknech",
+        "slug": "rinderknech-arthur",
+        "shortName": "A. Rinderknech",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Salzburg, Austria",
+            "slug": "salzburg-austria",
+            "category": {
+                "name": "Challenger",
+                "slug": "challenger",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 72,
+                "country": {},
+                "flag": "challenger",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                        "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                        "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Salzburg, Austria",
+                "slug": "salzburg-austria",
+                "category": {
+                    "name": "Challenger",
+                    "slug": "challenger",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 72,
+                    "country": {},
+                    "flag": "challenger",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                            "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                            "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 108,
+                "hasPerformanceGraphFeature": false,
+                "id": 18743,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0633\u0627\u0644\u0632\u0628\u0648\u0631\u063a\u060c \u0627\u0644\u0646\u0645\u0633\u0627"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 101839,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0633\u0627\u0644\u0632\u0628\u0648\u0631\u063a\u060c \u0627\u0644\u0646\u0645\u0633\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 7984,
+        "playerTeamInfo": {
+            "residence": "Paris",
+            "birthplace": "Gassin, France",
+            "height": 1.96,
+            "weight": 88,
+            "plays": "right-handed",
+            "prizeCurrent": 1711552,
+            "prizeTotal": 4951201,
+            "id": 626,
+            "birthDateTimestamp": 806457600,
+            "prizeCurrentRaw": {
+                "value": 1711552,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 4951201,
+                "currency": "EUR"
+            },
+            "currentRanking": 29
+        },
+        "nameCode": "RIN",
+        "ranking": 29,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 63606,
+        "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+        },
+        "fullName": "Arthur Rinderknech",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0622\u0631\u062b\u0631 \u0631\u064a\u0646\u062f\u0631\u0643\u0646\u0634",
+                "ru": "\u0420\u0438\u043d\u0434\u0435\u0440\u043a\u043d\u0435\u0447, \u0410\u0440\u0442\u0443\u0440",
+                "hi": "\u0906\u0930\u094d\u0925\u0930 \u0930\u093f\u0902\u0921\u0930\u0915\u094d\u0928\u0947\u0915",
+                "bn": "\u0986\u09b0\u09cd\u09a5\u09be\u09b0 \u09b0\u09bf\u09a8\u09cd\u09a1\u09be\u09b0\u0995\u09a8\u09c7\u099a"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0622. \u0631\u064a\u0646\u062f\u0631\u0643\u0646\u0634"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}
