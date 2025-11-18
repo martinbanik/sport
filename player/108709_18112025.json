@@ -1,0 +1,154 @@
+{
+    "team": {
+        "name": "Kamil Majchrzak",
+        "slug": "majchrzak-kamil",
+        "shortName": "K. Majchrzak",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Wimbledon, London, Great Britain, Doubles",
+            "slug": "wimbledon-london-great-britain-doubles",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Wimbledon, Doubles",
+                "slug": "wimbledon-doubles",
+                "primaryColorHex": "#006632",
+                "secondaryColorHex": "#54008b",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 1138,
+                "tennisPoints": 2000,
+                "hasPerformanceGraphFeature": false,
+                "id": 2375,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0637\u0648\u0644\u0629 \u0648\u064a\u0645\u0628\u0644\u062f\u0648\u0646\u060c \u0632\u0648\u062c\u064a"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 97047,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0637\u0648\u0644\u0629 \u0648\u064a\u0645\u0628\u0644\u062f\u0648\u0646\u060c \u0644\u0646\u062f\u0646\u060c \u0628\u0631\u064a\u0637\u0627\u0646\u064a\u0627 \u0627\u0644\u0639\u0638\u0645\u0649\u060c \u0632\u0648\u062c\u064a"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 7627,
+        "playerTeamInfo": {
+            "residence": "Piotrkow Trybunalski, Poland",
+            "birthplace": "Piotrkow Trybunalski, Poland",
+            "height": 1.83,
+            "weight": 80,
+            "plays": "right-handed",
+            "turnedPro": "2014",
+            "prizeCurrent": 894671,
+            "prizeTotal": 2745658,
+            "id": 204,
+            "birthDateTimestamp": 821491200,
+            "prizeCurrentRaw": {
+                "value": 894671,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 2745658,
+                "currency": "EUR"
+            },
+            "currentRanking": 40
+        },
+        "nameCode": "MAJ",
+        "ranking": 64,
+        "national": false,
+        "type": 1,
+        "id": 108709,
+        "country": {
+            "alpha2": "PL",
+            "alpha3": "POL",
+            "name": "Poland",
+            "slug": "poland"
+        },
+        "fullName": "Kamil Majchrzak",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0643\u0627\u0645\u064a\u0644\u0627 \u0645\u0627\u064a\u062c\u0634\u0631\u0627\u0643",
+                "ru": "\u041c\u0430\u0439\u0445\u0436\u0430\u043a, \u041a\u0430\u043c\u0438\u043b\u044c",
+                "hi": "\u0915\u093e\u092e\u093f\u0932 \u092e\u093e\u0908\u0916\u094d\u0930\u091c\u093e\u0915",
+                "bn": "\u0995\u09be\u09ae\u09bf\u09b2 \u09ae\u09be\u099c\u099a\u09be\u09b0\u09cd\u099c\u09be\u0995"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0643. \u0645\u0627\u064a\u062c\u0634\u0631\u0627\u0643"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

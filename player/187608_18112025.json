@@ -1,0 +1,152 @@
+{
+    "team": {
+        "name": "Aleksandar Kovacevic",
+        "slug": "kovacevic-aleksandar",
+        "shortName": "A. Kovacevic",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Rome, USA",
+            "slug": "rome-usa",
+            "category": {
+                "name": "Challenger",
+                "slug": "challenger",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 72,
+                "country": {},
+                "flag": "challenger",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                        "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                        "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Rome, USA",
+                "slug": "rome-usa",
+                "category": {
+                    "name": "Challenger",
+                    "slug": "challenger",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 72,
+                    "country": {},
+                    "flag": "challenger",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                            "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                            "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 33,
+                "hasPerformanceGraphFeature": false,
+                "id": 18745,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0648\u0645\u0627\u060c \u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u062d\u062f\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 101854,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0648\u0645\u0627\u060c \u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u062d\u062f\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 3369,
+        "playerTeamInfo": {
+            "residence": "United States",
+            "birthplace": "New York, NY, USA",
+            "height": 1.83,
+            "weight": 79,
+            "plays": "right-handed",
+            "prizeCurrent": 773023,
+            "prizeTotal": 1974198,
+            "id": 2488,
+            "birthDateTimestamp": 904348800,
+            "prizeCurrentRaw": {
+                "value": 773023,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 1974198,
+                "currency": "EUR"
+            },
+            "currentRanking": 61
+        },
+        "nameCode": "KOV",
+        "ranking": 62,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 187608,
+        "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+        },
+        "fullName": "Aleksandar Kovacevic",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0623\u0644\u0643\u0633\u0646\u062f\u0631 \u0643\u0648\u0641\u0627\u062a\u0634\u064a\u0641\u064a\u062a\u0634"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0623. \u0643\u0648\u0641\u0627\u062a\u0634\u064a\u0641\u064a\u062a\u0634",
+                "hi": "\u090f. \u0915\u094b\u0935\u093e\u091a\u0947\u0935\u093f\u091a",
+                "bn": "\u098f. \u0995\u09cb\u09ad\u09be\u09b8\u09c7\u09ad\u09bf\u0995"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

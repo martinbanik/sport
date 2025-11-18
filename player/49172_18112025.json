@@ -1,0 +1,158 @@
+{
+    "team": {
+        "name": "Damir D\u017eumhur",
+        "slug": "dzumhur-damir",
+        "shortName": "D. D\u017eumhur",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "French Open, Paris, France, Qualifying",
+            "slug": "french-open-paris-france-qualifying",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Roland Garros",
+                "slug": "roland-garros",
+                "primaryColorHex": "#c85a19",
+                "secondaryColorHex": "#01503d",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 39221,
+                "tennisPoints": 2000,
+                "hasPerformanceGraphFeature": false,
+                "id": 2480,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0637\u0648\u0644\u0629 \u0631\u0648\u0644\u0627\u0646 \u062c\u0627\u0631\u0648\u0633",
+                        "hi": "\u0930\u094b\u0932\u0948\u0902\u0921 \u0917\u0930\u094d\u0930\u094b\u0938",
+                        "bn": "\u09b0\u09cb\u09b2\u09cd\u09af\u09be\u09a8\u09cd\u09a1 \u0997\u09cd\u09af\u09be\u09b0\u09cb\u09b8"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 93593,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0637\u0648\u0644\u0629 \u0641\u0631\u0646\u0633\u0627 \u0627\u0644\u0645\u0641\u062a\u0648\u062d\u0629\u060c \u0628\u0627\u0631\u064a\u0633\u060c \u0641\u0631\u0646\u0633\u0627\u060c \u062a\u0635\u0641\u064a\u0627\u062a"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 4731,
+        "playerTeamInfo": {
+            "residence": "Sarajevo, Bosnia-Herzegovina",
+            "birthplace": "Sarajevo, Bosnia-Herzegovina",
+            "height": 1.75,
+            "weight": 68,
+            "plays": "right-handed",
+            "turnedPro": "2011",
+            "prizeCurrent": 914308,
+            "prizeTotal": 5494889,
+            "id": 50,
+            "birthDateTimestamp": 706320000,
+            "prizeCurrentRaw": {
+                "value": 914308,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 5494889,
+                "currency": "EUR"
+            },
+            "currentRanking": 57
+        },
+        "nameCode": "DZU",
+        "ranking": 57,
+        "class": 1,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 49172,
+        "country": {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia & Herzegovina",
+            "slug": "bosnia-and-herzegovina"
+        },
+        "fullName": "Damir D\u017eumhur",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u062f\u0627\u0645\u064a\u0631 \u062f\u0632\u0648\u0645\u0647\u0648\u0631",
+                "ru": "\u0414\u0436\u0443\u043c\u0443\u0440, \u0414\u0430\u043c\u0438\u0440"
+            },
+            "shortNameTranslation": {
+                "ar": "\u062f. \u062f\u0632\u0648\u0645\u0647\u0648\u0631",
+                "hi": "\u0921\u0940. \u0926\u091c\u093c\u0941\u092e\u094d\u0939\u0941\u0930",
+                "bn": "\u09a1\u09bf. \u099c\u09c1\u09ae\u09b9\u09c1\u09b0"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

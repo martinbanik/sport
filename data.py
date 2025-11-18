@@ -26,7 +26,7 @@ class API_requests:
         return response
 
     def get_actual_rankings(self):
-        if self.daily_remaining > 0:
+        if self.daily_remaining > 1:
             rankings_raw = self.send_request("rankings/atp/live")
             rankings_json = rankings_raw.json()
 
@@ -39,7 +39,7 @@ class API_requests:
                 print("file saved")
 
     def load_player_info(self):
-        if self.daily_remaining > 0:
+        if self.daily_remaining > 1:
             if self.database.find_players_missing_info():
                 player_id = self.database.find_players_missing_info()[0][0]
                 print(player_id)
@@ -55,24 +55,14 @@ class API_requests:
                 return False
 
     def load_player_events(self, history):
-        if self.database.find_player_for_match_backfill(history):
-            player_id, name, page = self.database.find_player_for_match_backfill(history)
-            events_raw = self.send_request(f"player/{player_id}/events/previous/{page}")
-            events_json = events_raw.json()
-            self.database.add_match(events_json)
-            self.database.change_match_player_suffix(player_id, history+1)
-
-            file = f"events/{player_id}_{date.today().strftime('%d%m%Y')}.json"
-            with open(file, 'w') as f:
-                json.dump(events_json, f, indent=4)
-                print("file saved")
-            return True
-        else:
-            if self.database.find_recent_unfinished_matches(20):
-                player_id = self.database.find_recent_unfinished_matches(20)[0][0]
-                events_raw = self.send_request(f"player/{player_id}/events/previous/0")
+        if self.daily_remaining > 1:
+            if self.database.find_player_for_match_backfill(history):
+                player_id, name, page = self.database.find_player_for_match_backfill(history)
+                print(player_id)
+                events_raw = self.send_request(f"player/{player_id}/events/previous/{page}")
                 events_json = events_raw.json()
                 self.database.add_match(events_json)
+                self.database.change_match_player_suffix(player_id, history+1)
 
                 file = f"events/{player_id}_{date.today().strftime('%d%m%Y')}.json"
                 with open(file, 'w') as f:
@@ -80,18 +70,33 @@ class API_requests:
                     print("file saved")
                 return True
             else:
-                return False
+                if self.database.find_recent_unfinished_matches(20):
+                    player_id = self.database.find_recent_unfinished_matches(20)[0][0]
+                    events_raw = self.send_request(f"player/{player_id}/events/previous/0")
+                    events_json = events_raw.json()
+                    self.database.add_match(events_json)
+
+                    file = f"events/{player_id}_{date.today().strftime('%d%m%Y')}.json"
+                    with open(file, 'w') as f:
+                        json.dump(events_json, f, indent=4)
+                        print("file saved")
+                    return True
+                else:
+                    return False
+        else:
+            return False
 
 
 if __name__ == "__main__":
     API = API_requests()
-    API.get_actual_rankings()
+    #API.get_actual_rankings()
     proceeded = True
-    while(API.daily_remaining > 0 and proceeded):
-        proceeded = API.load_player_info()
+    #while(API.daily_remaining > 1 and proceeded):
+    proceeded = API.load_player_info()
     proceeded = True
-    while(API.daily_remaining > 0 and proceeded):
-        API.load_player_events(0)
+    #while(API.daily_remaining > 1 and proceeded):
+    #proceeded = API.load_player_events(0)
+    #print(proceeded)
 
 #url = "https://tennisapi1.p.rapidapi.com/api/tennis/rankings/atp/live"
 #url = "https://tennisapi1.p.rapidapi.com/api/tennis/player/275923/events/near"

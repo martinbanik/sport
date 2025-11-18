@@ -1,0 +1,152 @@
+{
+    "team": {
+        "name": "Nuno Borges",
+        "slug": "borges-nuno",
+        "shortName": "N. Borges",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Porto, Portugal, Doubles",
+            "slug": "porto-portugal-doubles",
+            "category": {
+                "name": "Challenger",
+                "slug": "challenger",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 72,
+                "country": {},
+                "flag": "challenger",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                        "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                        "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Porto, Portugal, Doubles",
+                "slug": "porto-portugal-doubles",
+                "category": {
+                    "name": "Challenger",
+                    "slug": "challenger",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 72,
+                    "country": {},
+                    "flag": "challenger",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                            "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                            "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 19,
+                "tennisPoints": 125,
+                "hasPerformanceGraphFeature": false,
+                "id": 5896,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0632\u0648\u062c\u064a \u0628\u0648\u0631\u062a\u0648\u060c \u0627\u0644\u0628\u0631\u062a\u063a\u0627\u0644"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 101846,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0648\u0631\u062a\u0648\u060c \u0627\u0644\u0628\u0631\u062a\u063a\u0627\u0644\u060c \u0632\u0648\u062c\u064a"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 11439,
+        "playerTeamInfo": {
+            "residence": "Portugal",
+            "birthplace": "Maia, Portugal",
+            "height": 1.85,
+            "weight": 78,
+            "plays": "right-handed",
+            "prizeCurrent": 1331386,
+            "prizeTotal": 3739330,
+            "id": 2152,
+            "birthDateTimestamp": 856310400,
+            "prizeCurrentRaw": {
+                "value": 1331386,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 3739330,
+                "currency": "EUR"
+            },
+            "currentRanking": 47
+        },
+        "nameCode": "BOR",
+        "ranking": 47,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 125006,
+        "country": {
+            "alpha2": "PT",
+            "alpha3": "PRT",
+            "name": "Portugal",
+            "slug": "portugal"
+        },
+        "fullName": "Nuno Borges",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0646\u0648\u0646\u0648 \u0628\u0648\u0631\u063a\u064a\u0633"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0646. \u0628\u0648\u0631\u063a\u064a\u0633",
+                "hi": "\u090f\u0928. \u092c\u094b\u0930\u094d\u0917\u0947\u0938",
+                "bn": "\u098f\u09a8. \u09ac\u09cb\u09b0\u09cd\u09b9\u09c7\u09b8"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

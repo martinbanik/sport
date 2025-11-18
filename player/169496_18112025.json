@@ -1,0 +1,157 @@
+{
+    "team": {
+        "name": "Tomas Martin Etcheverry",
+        "slug": "etcheverry-tomas-martin",
+        "shortName": "T. Etcheverry",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Bastad, Sweden",
+            "slug": "bastad-sweden",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Bastad",
+                "slug": "bastad",
+                "primaryColorHex": "#034ea2",
+                "secondaryColorHex": "#ffe37e",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 1930,
+                "tennisPoints": 250,
+                "hasPerformanceGraphFeature": false,
+                "id": 2413,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0627\u0633\u062a\u0627\u062f",
+                        "hi": "\u092c\u0938\u094d\u0924\u093e\u0926",
+                        "bn": "\u09ac\u09be\u09b8\u09cd\u09a4\u09be\u09a1"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 98811,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0627\u0633\u062a\u0627\u062f\u060c \u0627\u0644\u0633\u0648\u064a\u062f"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 8852,
+        "playerTeamInfo": {
+            "residence": "La Plata -  Buenos Aires",
+            "birthplace": "La Plata, Argentina",
+            "height": 1.96,
+            "weight": 82,
+            "plays": "right-handed",
+            "prizeCurrent": 1176590,
+            "prizeTotal": 4612451,
+            "id": 2399,
+            "birthDateTimestamp": 932256000,
+            "prizeCurrentRaw": {
+                "value": 1176590,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 4612451,
+                "currency": "EUR"
+            },
+            "currentRanking": 56
+        },
+        "nameCode": "ETC",
+        "ranking": 60,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 169496,
+        "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+        },
+        "fullName": "Tomas Martin Etcheverry",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u062a\u0648\u0645\u0627\u0633 \u0645\u0627\u0631\u062a\u0646 \u0625\u062a\u0634\u064a\u0641\u064a\u0631\u064a",
+                "ru": "\u042d\u0442\u0447\u0435\u0432\u0435\u0440\u0440\u0438, \u0422\u043e\u043c\u0430\u0441 \u041c\u0430\u0440\u0442\u0438\u043d"
+            },
+            "shortNameTranslation": {
+                "ar": "\u062a. \u0625\u062a\u0634\u064a\u0641\u064a\u0631\u064a",
+                "hi": "\u091f\u0940. \u090f\u091f\u091a\u0947\u0935\u0930\u0940",
+                "bn": "\u099f\u09bf. \u0987\u099a\u09ad\u09c7\u09b0\u09bf"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

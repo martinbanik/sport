@@ -1,0 +1,155 @@
+{
+    "team": {
+        "name": "Alexei Popyrin",
+        "slug": "popyrin-alexei",
+        "shortName": "A. Popyrin",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Ilkley, Great Britain",
+            "slug": "ilkley-great-britain",
+            "category": {
+                "name": "Challenger",
+                "slug": "challenger",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 72,
+                "country": {},
+                "flag": "challenger",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                        "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                        "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Ilkley, Great Britain",
+                "slug": "ilkley-great-britain",
+                "category": {
+                    "name": "Challenger",
+                    "slug": "challenger",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 72,
+                    "country": {},
+                    "flag": "challenger",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                            "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                            "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 172,
+                "hasPerformanceGraphFeature": false,
+                "id": 6475,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0625\u0644\u0643\u0644\u064a\u060c \u0628\u0631\u064a\u0637\u0627\u0646\u064a\u0627 \u0627\u0644\u0639\u0638\u0645\u0649"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 102663,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0625\u0644\u0643\u0644\u064a\u060c \u0628\u0631\u064a\u0637\u0627\u0646\u064a\u0627 \u0627\u0644\u0639\u0638\u0645\u0649"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 8495,
+        "playerTeamInfo": {
+            "residence": "Sydney, Australia",
+            "birthplace": "Sydney, Australia",
+            "height": 1.96,
+            "weight": 78,
+            "plays": "right-handed",
+            "turnedPro": "2017",
+            "prizeCurrent": 1320508,
+            "prizeTotal": 7324328,
+            "id": 163,
+            "birthDateTimestamp": 933811200,
+            "prizeCurrentRaw": {
+                "value": 1320508,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 7324328,
+                "currency": "EUR"
+            },
+            "currentRanking": 54
+        },
+        "nameCode": "POP",
+        "ranking": 54,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 128552,
+        "country": {
+            "alpha2": "AU",
+            "alpha3": "AUS",
+            "name": "Australia",
+            "slug": "australia"
+        },
+        "fullName": "Alexei Popyrin",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0623\u0644\u064a\u0643\u0633\u064a \u0628\u0648\u0628\u064a\u0631\u064a\u0646",
+                "ru": "\u041f\u043e\u043f\u044b\u0440\u0438\u043d, \u0410\u043b\u0435\u043a\u0441\u0435\u0439"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0623. \u0628\u0648\u0628\u064a\u0631\u064a\u0646",
+                "hi": "\u090f. \u092a\u0949\u092a\u093e\u092f\u0930\u093f\u0928",
+                "bn": "\u098f. \u09aa\u09aa\u09bf\u09b0\u09bf\u09a8"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

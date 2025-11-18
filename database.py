@@ -110,7 +110,7 @@ class Database:
             ranking = data['rankings']
             for team in ranking:
                 player = team['team']
-                print(player['name'])
+                #print(player['name'])
                 try:
                     # Insert players (OR IGNORE stops it from crashing if the player already exists)
                     cursor.execute('''INSERT OR IGNORE INTO Players (
@@ -162,12 +162,12 @@ class Database:
                 tennisPoints = tournament.get('tennisPoints')
                 tournamentName = tournament.get('name')
                 category = tournament['category'].get('name')
-                groundType = event['groundType']
+                groundType = event.get('groundType')
                 date = datetime.fromtimestamp(event.get('startTimestamp'))
                 score = None
                 winner_id = None
                 if event['status'].get('type') == "finished":
-                    print("finished")
+                    #print("finished")
                     score = f"{event['homeScore'].get('current')}:{event['awayScore'].get('current')} ("
                     for res in event['homeScore']:
                         if res.startswith("period") and len(res) == 7:
@@ -463,18 +463,49 @@ class Database:
                 print(f"An error occurred: {e}")
                 return None
 
+    def get_ranked_players(self, start_rank, count):
+        """
+        Gets a slice of the ranking table with player names,
+        using DATETIME logic to ensure the latest ranking list is used.
+        """
+        with sqlite3.connect(self.name) as conn:
+            cursor = conn.cursor()
+
+            # --- SIMPLIFIED SQL LOGIC ---
+            sql = """
+            SELECT R.rank, P.name, P.country, R.points, R.ranking_date
+            FROM Rankings R
+            JOIN Players P ON R.player_id = P.player_id
+
+            -- This subquery now uses the DATETIME column to find the true latest date
+            WHERE R.ranking_date = (SELECT MAX(ranking_date) FROM Rankings)
+              AND R.rank >= ?
+            ORDER BY R.rank ASC
+            LIMIT ?
+            """
+
+            try:
+                # We only need to execute the main query now
+                cursor.execute(sql, (start_rank, count))
+                return cursor.fetchall()
+
+            except sqlite3.Error as e:
+                print(f"An error occurred: {e}")
+                return []
+
 if __name__ == "__main__":
     database = Database("tennis.db")
     #database.update_players_from_ranking()
-    database.fill_ranking("dd")
+    #database.fill_ranking("dd")
     #database.add_match("dd")
     #print(database.player_from_rank(1))
     #print(database.player_name_from_id(database.player_from_rank(1)))
     #database.change_match_player_suffix(275923, 1)
-    print(database.search('Players',
+    print(database.search('Rankings',
                          select_cols=['player_id'],
-                         where_conditions={'name': 'Carlos Alcaraz'},
+                         where_conditions={'rank': 3},
                          fetchone=True))
+    #database.change_match_player_suffix(57163, 0)
     #print(database.search('Players'))
     #database.add_additional_player_info("dd")
 
@@ -486,3 +517,4 @@ if __name__ == "__main__":
     #with open("base/stats_10400727.json", "r", encoding='utf-8') as f:
     #    data = json.load(f)  # We're using the string above
     #    database.add_match_stats(data, 14046430)
+    print(database.get_ranked_players(10, 20))

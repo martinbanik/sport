@@ -1,0 +1,158 @@
+{
+    "team": {
+        "name": "Marton Fucsovics",
+        "slug": "fucsovics-marton",
+        "shortName": "M. Fucsovics",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Stuttgart, Germany",
+            "slug": "stuttgart-germany",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Stuttgart",
+                "slug": "stuttgart",
+                "primaryColorHex": "#a1a7aa",
+                "secondaryColorHex": "#415665",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 2463,
+                "tennisPoints": 250,
+                "hasPerformanceGraphFeature": false,
+                "id": 2483,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0634\u062a\u0648\u062a\u063a\u0627\u0631\u062a",
+                        "hi": "\u0938\u094d\u091f\u0941\u091f\u0917\u093e\u0930\u094d\u091f",
+                        "bn": "\u09b8\u09cd\u099f\u09c1\u099f\u0997\u09be\u09b0\u09cd\u099f"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 96948,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0634\u062a\u0648\u062a\u063a\u0627\u0631\u062a\u060c \u0623\u0644\u0645\u0627\u0646\u064a\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 6962,
+        "playerTeamInfo": {
+            "residence": "Budapest, Hungary",
+            "birthplace": "Nyiregyhaza, Hungary",
+            "height": 1.88,
+            "weight": 82,
+            "plays": "right-handed",
+            "turnedPro": "2010",
+            "prizeCurrent": 732059,
+            "prizeTotal": 7036415,
+            "id": 35,
+            "birthDateTimestamp": 697507200,
+            "prizeCurrentRaw": {
+                "value": 732059,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 7036415,
+                "currency": "EUR"
+            },
+            "currentRanking": 37
+        },
+        "nameCode": "FUC",
+        "ranking": 55,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 47770,
+        "country": {
+            "alpha2": "HU",
+            "alpha3": "HUN",
+            "name": "Hungary",
+            "slug": "hungary"
+        },
+        "fullName": "Marton Fucsovics",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0645\u0627\u0631\u062a\u0648\u0646 \u0641\u0648\u0643\u0633\u0648\u0641\u064a\u062a\u0634",
+                "ru": "\u0424\u0443\u0447\u043e\u0432\u0438\u0447, \u041c\u0430\u0440\u0442\u043e\u043d"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0645. \u0641\u0648\u0643\u0633\u0648\u0641\u064a\u062a\u0634",
+                "hi": "\u090f\u092e. \u092b\u0941\u0915\u094d\u0938\u094b\u0935\u093f\u0915\u094d\u0938",
+                "bn": "\u098f\u09ae. \u09ab\u09c1\u0995\u09b8\u09cb\u09ad\u09bf\u09b8"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

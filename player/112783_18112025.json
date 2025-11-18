@@ -1,0 +1,160 @@
+{
+    "team": {
+        "name": "Matteo Berrettini",
+        "slug": "berrettini-matteo",
+        "shortName": "M. Berrettini",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Stuttgart, Germany",
+            "slug": "stuttgart-germany",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Stuttgart",
+                "slug": "stuttgart",
+                "primaryColorHex": "#a1a7aa",
+                "secondaryColorHex": "#415665",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 2463,
+                "tennisPoints": 250,
+                "hasPerformanceGraphFeature": false,
+                "id": 2483,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0634\u062a\u0648\u062a\u063a\u0627\u0631\u062a",
+                        "hi": "\u0938\u094d\u091f\u0941\u091f\u0917\u093e\u0930\u094d\u091f",
+                        "bn": "\u09b8\u09cd\u099f\u09c1\u099f\u0997\u09be\u09b0\u09cd\u099f"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 96948,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0634\u062a\u0648\u062a\u063a\u0627\u0631\u062a\u060c \u0623\u0644\u0645\u0627\u0646\u064a\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 39510,
+        "playerTeamInfo": {
+            "residence": "Rome, Italy",
+            "birthplace": "Rome, Italy",
+            "height": 1.96,
+            "weight": 95,
+            "plays": "right-handed",
+            "turnedPro": "2015",
+            "prizeCurrent": 927901,
+            "prizeTotal": 11856766,
+            "id": 56,
+            "birthDateTimestamp": 829267200,
+            "prizeCurrentRaw": {
+                "value": 927901,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 11856766,
+                "currency": "EUR"
+            },
+            "currentRanking": 27
+        },
+        "nameCode": "BER",
+        "ranking": 56,
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 112783,
+        "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+        },
+        "fullName": "Matteo Berrettini",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0645\u0627\u062a\u064a\u0648 \u0628\u064a\u0631\u064a\u062a\u064a\u0646\u064a",
+                "ru": "\u0411\u0435\u0440\u0440\u0435\u0442\u0442\u0438\u043d\u0438, \u041c\u0430\u0442\u0442\u0435\u043e"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0645. \u0628\u064a\u0631\u064a\u062a\u064a\u0646\u064a",
+                "hi": "\u090f\u092e. \u092c\u0947\u0930\u0947\u091f\u093f\u0928\u0940",
+                "bn": "\u098f\u09ae. \u09ac\u09c7\u09b0\u09c7\u099f\u09bf\u09a8\u09bf"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

@@ -1,0 +1,147 @@
+{
+    "team": {
+        "name": "Giovanni Mpetshi Perricard",
+        "slug": "mpetshi-perricard-giovanni",
+        "shortName": "G. Mpetshi Perricard",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Uriage, Singles Main, M-ITF-FRA-11A",
+            "slug": "uriage-singles-main-m-itf-fra-11a",
+            "category": {
+                "name": "ITF Men",
+                "slug": "itf-men",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 785,
+                "country": {},
+                "flag": "itf-men",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u062a\u0646\u0633 \u0627\u0644\u062f\u0648\u0644\u064a \u0644\u0644\u0631\u062c\u0627\u0644"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "ITF France F11, Men Singles",
+                "slug": "itf-france-f11-men-singles",
+                "category": {
+                    "name": "ITF Men",
+                    "slug": "itf-men",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 785,
+                    "country": {},
+                    "flag": "itf-men",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u062a\u0646\u0633 \u0627\u0644\u062f\u0648\u0644\u064a \u0644\u0644\u0631\u062c\u0627\u0644"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 4,
+                "hasPerformanceGraphFeature": false,
+                "id": 12432,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "ITF \u0641\u0631\u0646\u0633\u0627 F11\u060c \u0641\u0631\u062f\u064a \u0627\u0644\u0631\u062c\u0627\u0644"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 103766,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0623\u0648\u0631\u064a\u0627\u063a\u060c \u0641\u0631\u062f\u064a \u0631\u0626\u064a\u0633\u064a\u060c M-ITF-FRA-11A"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 10531,
+        "playerTeamInfo": {
+            "birthplace": "Lyon",
+            "height": 2.01,
+            "weight": 103,
+            "plays": "right-handed",
+            "prizeCurrent": 1029466,
+            "prizeTotal": 2583916,
+            "id": 4534,
+            "birthDateTimestamp": 1057622400,
+            "prizeCurrentRaw": {
+                "value": 1029466,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 2583916,
+                "currency": "EUR"
+            },
+            "currentRanking": 59
+        },
+        "nameCode": "MPE",
+        "ranking": 59,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 289146,
+        "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+        },
+        "fullName": "Giovanni Mpetshi Perricard",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u062c\u064a\u0648\u0641\u0627\u0646\u064a \u0645\u0628\u064a\u062a\u0634\u064a\u0631 \u0628\u064a\u0631\u064a\u0643\u0627\u0631\u062f",
+                "ru": "\u041c\u043f\u0435\u0448\u0438 \u041f\u0435\u0440\u0440\u0438\u043a\u0430\u0440, \u0414\u0436\u043e\u0432\u0430\u043d\u043d\u0438",
+                "hi": "\u091c\u093f\u092f\u094b\u0935\u0928\u094d\u0928\u0940 \u092e\u092a\u0947\u091f\u0936\u0940 \u092a\u0947\u0930\u093f\u0915\u093e\u0930\u094d\u0921",
+                "bn": "\u099c\u09bf\u0993\u09ad\u09be\u09a8\u09cd\u09a8\u09bf \u098f\u09ae\u09aa\u09c7\u099f\u09b6\u09bf \u09aa\u09c7\u09b0\u09bf\u0995\u09be\u09b0\u09cd\u09a1"
+            },
+            "shortNameTranslation": {
+                "ar": "\u062c. \u0628\u064a\u0631\u064a\u0643\u0627\u0631\u062f"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

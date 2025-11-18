@@ -1,0 +1,158 @@
+{
+    "team": {
+        "name": "Miomir Kecmanovic",
+        "slug": "kecmanovic-miomir",
+        "shortName": "M. Kecmanovic",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "French Open, Paris, France",
+            "slug": "french-open-paris-france",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Roland Garros",
+                "slug": "roland-garros",
+                "primaryColorHex": "#c85a19",
+                "secondaryColorHex": "#01503d",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 39221,
+                "tennisPoints": 2000,
+                "hasPerformanceGraphFeature": false,
+                "id": 2480,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0637\u0648\u0644\u0629 \u0631\u0648\u0644\u0627\u0646 \u062c\u0627\u0631\u0648\u0633",
+                        "hi": "\u0930\u094b\u0932\u0948\u0902\u0921 \u0917\u0930\u094d\u0930\u094b\u0938",
+                        "bn": "\u09b0\u09cb\u09b2\u09cd\u09af\u09be\u09a8\u09cd\u09a1 \u0997\u09cd\u09af\u09be\u09b0\u09cb\u09b8"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 93468,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0637\u0648\u0644\u0629 \u0641\u0631\u0646\u0633\u0627 \u0627\u0644\u0645\u0641\u062a\u0648\u062d\u0629\u060c \u0628\u0627\u0631\u064a\u0633\u060c \u0641\u0631\u0646\u0633\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 9145,
+        "playerTeamInfo": {
+            "residence": "Bradenton, FL, USA",
+            "birthplace": "Belgrade, Serbia",
+            "height": 1.83,
+            "weight": 75,
+            "plays": "right-handed",
+            "turnedPro": "2017",
+            "prizeCurrent": 1151641,
+            "prizeTotal": 7054621,
+            "id": 159,
+            "birthDateTimestamp": 936057600,
+            "prizeCurrentRaw": {
+                "value": 1151641,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 7054621,
+                "currency": "EUR"
+            },
+            "currentRanking": 52
+        },
+        "nameCode": "KEC",
+        "ranking": 52,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 198592,
+        "country": {
+            "alpha2": "RS",
+            "alpha3": "SRB",
+            "name": "Serbia",
+            "slug": "serbia"
+        },
+        "fullName": "Miomir Kecmanovic",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0645\u064a\u0648\u0648\u0645\u064a\u0631 \u0643\u064a\u0643\u0645\u0627\u0646\u0648\u0641\u064a\u062a\u0634",
+                "ru": "\u041a\u0435\u0447\u043c\u0430\u043d\u043e\u0432\u0438\u0447, \u041c\u0438\u043e\u043c\u0438\u0440"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0645. \u0643\u064a\u0643\u0645\u0627\u0646\u0648\u0641\u064a\u062a\u0634",
+                "hi": "\u090f\u092e. \u0915\u0947\u0915\u092e\u093e\u0928\u094b\u0935\u093f\u091a",
+                "bn": "\u098f\u09ae. \u0995\u09c7\u0995\u09ae\u09be\u09a8\u09ad\u09bf\u099a"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}
