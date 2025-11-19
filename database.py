@@ -473,7 +473,7 @@ class Database:
 
             # --- SIMPLIFIED SQL LOGIC ---
             sql = """
-            SELECT R.rank, P.name, P.country, R.points, R.ranking_date
+            SELECT R.rank, P.name, P.country, R.points, R.ranking_date, P.player_id
             FROM Rankings R
             JOIN Players P ON R.player_id = P.player_id
 
@@ -492,6 +492,51 @@ class Database:
             except sqlite3.Error as e:
                 print(f"An error occurred: {e}")
                 return []
+
+    def get_player_history_at_date(self, player_id, history_offset=0):
+        """
+        Finds a player's specific rank and points from a historical update.
+
+        :param player_id: The ID of the player to look up.
+        :param history_offset: 0 for the latest update, 1 for the previous one, etc.
+        :return: A tuple (rank, points) or None if not found.
+        """
+        with sqlite3.connect(self.name) as conn:
+            cursor = conn.cursor()
+
+            # --- 1. Find the target ranking date (e.g., the 1st, 2nd, 3rd latest) ---
+            sql_target_date = """
+            SELECT DISTINCT ranking_date
+            FROM Rankings
+            ORDER BY ranking_date DESC
+            LIMIT 1 OFFSET ?
+            """
+
+            # Execute the query to find the date string
+            cursor.execute(sql_target_date, (history_offset,))
+            target_date_row = cursor.fetchone()
+
+            if not target_date_row:
+                # No ranking date found for that offset (e.g., trying to find 5th update when only 4 exist)
+                return None
+
+            target_date = target_date_row[0]
+
+            # --- 2. Get the player data for that specific target date ---
+            sql_player_data = """
+            SELECT rank, points
+            FROM Rankings
+            WHERE player_id = ? AND ranking_date = ?
+            """
+
+            try:
+                # Execute the query with the player ID and the specific historical date
+                cursor.execute(sql_player_data, (player_id, target_date))
+                return cursor.fetchone()  # Returns (rank, points) or None
+
+            except sqlite3.Error as e:
+                print(f"Lookup error: {e}")
+                return None
 
 if __name__ == "__main__":
     database = Database("tennis.db")
@@ -518,3 +563,5 @@ if __name__ == "__main__":
     #    data = json.load(f)  # We're using the string above
     #    database.add_match_stats(data, 14046430)
     print(database.get_ranked_players(10, 20))
+    for player in database.get_ranked_players(10, 20):
+        print(database.get_player_history_at_date(player[5], 1))

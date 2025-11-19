@@ -1,0 +1,151 @@
+{
+    "team": {
+        "name": "Francisco Comesa\u00f1a",
+        "slug": "comesana-francisco",
+        "shortName": "F. Comesa\u00f1a",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Bogota, Colombia, Doubles",
+            "slug": "bogota-colombia-doubles",
+            "category": {
+                "name": "Challenger",
+                "slug": "challenger",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 72,
+                "country": {},
+                "flag": "challenger",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                        "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                        "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Bogota, Colombia, Doubles",
+                "slug": "bogota-colombia-doubles",
+                "category": {
+                    "name": "Challenger",
+                    "slug": "challenger",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 72,
+                    "country": {},
+                    "flag": "challenger",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                            "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                            "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 22,
+                "tennisPoints": 125,
+                "hasPerformanceGraphFeature": false,
+                "id": 3511,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0648\u063a\u0648\u062a\u0627\u060c \u0643\u0648\u0644\u0648\u0645\u0628\u064a\u0627\u060c \u0632\u0648\u062c\u064a"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 101843,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0648\u063a\u0648\u062a\u0627\u060c \u0643\u0648\u0644\u0648\u0645\u0628\u064a\u0627\u060c \u0632\u0648\u062c\u064a"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 5669,
+        "playerTeamInfo": {
+            "birthplace": "Mar del Plata",
+            "height": 1.78,
+            "weight": 72,
+            "plays": "right-handed",
+            "prizeCurrent": 900305,
+            "prizeTotal": 1625774,
+            "id": 3062,
+            "birthDateTimestamp": 970790400,
+            "prizeCurrentRaw": {
+                "value": 900305,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 1625774,
+                "currency": "EUR"
+            },
+            "currentRanking": 61
+        },
+        "nameCode": "COM",
+        "ranking": 61,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 255420,
+        "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+        },
+        "fullName": "Francisco Comesa\u00f1a",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0641\u0631\u0627\u0646\u0633\u064a\u0633\u0643\u0648 \u0643\u0648\u0645\u064a\u0633\u0627\u0646\u064a\u0627"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0641. \u0643\u0648\u0645\u064a\u0633\u0627\u0646\u064a\u0627",
+                "hi": "\u090f\u092b. \u0915\u094b\u092e\u0947\u0938\u093e\u0928\u093e",
+                "bn": "\u098f\u09ab. \u0995\u09ae\u09b8\u09be\u09a8\u09be"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

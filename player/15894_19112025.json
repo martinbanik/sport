@@ -1,0 +1,158 @@
+{
+    "team": {
+        "name": "Adrian Mannarino",
+        "slug": "mannarino-adrian",
+        "shortName": "A. Mannarino",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Wimbledon, London, Great Britain, Doubles",
+            "slug": "wimbledon-london-great-britain-doubles",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Wimbledon, Doubles",
+                "slug": "wimbledon-doubles",
+                "primaryColorHex": "#006632",
+                "secondaryColorHex": "#54008b",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 1139,
+                "tennisPoints": 2000,
+                "hasPerformanceGraphFeature": false,
+                "id": 2375,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0637\u0648\u0644\u0629 \u0648\u064a\u0645\u0628\u0644\u062f\u0648\u0646\u060c \u0632\u0648\u062c\u064a"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 97047,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0637\u0648\u0644\u0629 \u0648\u064a\u0645\u0628\u0644\u062f\u0648\u0646\u060c \u0644\u0646\u062f\u0646\u060c \u0628\u0631\u064a\u0637\u0627\u0646\u064a\u0627 \u0627\u0644\u0639\u0638\u0645\u0649\u060c \u0632\u0648\u062c\u064a"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 7412,
+        "playerTeamInfo": {
+            "residence": "Valletta, Malta",
+            "birthplace": "Soisy-sous-Montmorency, France",
+            "height": 1.8,
+            "weight": 79,
+            "plays": "left-handed",
+            "turnedPro": "2004",
+            "prizeCurrent": 984636,
+            "prizeTotal": 12387629,
+            "id": 51,
+            "birthDateTimestamp": 583545600,
+            "prizeCurrentRaw": {
+                "value": 984636,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 12387629,
+                "currency": "EUR"
+            },
+            "currentRanking": 30
+        },
+        "nameCode": "MAN",
+        "ranking": 69,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 15894,
+        "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+        },
+        "fullName": "Adrian Mannarino",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0623\u062f\u0631\u064a\u0627\u0646 \u0645\u0627\u0646\u0627\u0631\u064a\u0646\u0648\u0627",
+                "ru": "\u041c\u0430\u043d\u043d\u0430\u0440\u0438\u043d\u043e, \u0410\u0434\u0440\u0438\u0430\u043d"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0623. \u0645\u0627\u0646\u0627\u0631\u064a\u0646\u0648\u0627",
+                "hi": "\u090f. \u092e\u0928\u093e\u0930\u093f\u0928\u094b",
+                "bn": "\u098f. \u09ae\u09be\u09a8\u09cd\u09a8\u09be\u09b0\u09bf\u09a8\u09cb"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

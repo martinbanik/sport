@@ -1,0 +1,158 @@
+{
+    "team": {
+        "name": "Hubert Hurkacz",
+        "slug": "hurkacz-hubert",
+        "shortName": "H. Hurkacz",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Halle, Germany",
+            "slug": "halle-germany",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Halle",
+                "slug": "halle",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 3615,
+                "tennisPoints": 500,
+                "hasPerformanceGraphFeature": false,
+                "id": 2493,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0647\u0627\u0644\u0647",
+                        "hi": "\u0939\u093e\u0932\u0947",
+                        "bn": "\u09b9\u09cd\u09af\u09be\u09b2\u09c7"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 96952,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0647\u0627\u0644\u0647\u060c \u0623\u0644\u0645\u0627\u0646\u064a\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 28830,
+        "playerTeamInfo": {
+            "residence": "Wroclaw, Poland",
+            "birthplace": "Wroclaw, Poland",
+            "height": 1.96,
+            "weight": 81,
+            "plays": "right-handed",
+            "turnedPro": "2015",
+            "prizeCurrent": 998912,
+            "prizeTotal": 16061146,
+            "id": 77,
+            "birthDateTimestamp": 855619200,
+            "prizeCurrentRaw": {
+                "value": 998912,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 16061146,
+                "currency": "EUR"
+            },
+            "currentRanking": 22
+        },
+        "nameCode": "HUR",
+        "ranking": 73,
+        "class": 1,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 158896,
+        "country": {
+            "alpha2": "PL",
+            "alpha3": "POL",
+            "name": "Poland",
+            "slug": "poland"
+        },
+        "fullName": "Hubert Hurkacz",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0647\u0648\u0628\u0631\u062a \u0647\u0648\u0631\u0643\u0627\u0634",
+                "ru": "\u0413\u0443\u0440\u043a\u0430\u0447, \u0425\u0443\u0431\u0435\u0440\u0442"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0647. \u0647\u0648\u0631\u0643\u0627\u0634",
+                "hi": "\u090f\u091a. \u0939\u0941\u0930\u0915\u093e\u091a",
+                "bn": "\u098f\u0987\u099a. \u09b9\u09c1\u09b0\u0995\u09be\u099c"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

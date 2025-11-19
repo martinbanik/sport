@@ -1,0 +1,160 @@
+{
+    "team": {
+        "name": "Gael Monfils",
+        "slug": "monfils-gael",
+        "shortName": "G. Monfils",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Lyon, France",
+            "slug": "lyon-france",
+            "category": {
+                "name": "ATP",
+                "slug": "atp",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 3,
+                "country": {},
+                "flag": "atp",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                        "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                        "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Lyon",
+                "slug": "lyon",
+                "primaryColorHex": "#ce490f",
+                "secondaryColorHex": "#f99766",
+                "category": {
+                    "name": "ATP",
+                    "slug": "atp",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 3,
+                    "country": {},
+                    "flag": "atp",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                            "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                            "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 1339,
+                "tennisPoints": 250,
+                "hasPerformanceGraphFeature": false,
+                "id": 2498,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0644\u064a\u0648\u0646",
+                        "hi": "\u0932\u093f\u092f\u094b\u0928",
+                        "bn": "\u09b2\u09bf\u09af\u09bc\u09a8"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 96942,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0644\u064a\u0648\u0646\u060c \u0641\u0631\u0646\u0633\u0627"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 22314,
+        "playerTeamInfo": {
+            "residence": "Switzerland",
+            "birthplace": "Paris, France",
+            "height": 1.93,
+            "weight": 85,
+            "plays": "right-handed",
+            "turnedPro": "2004",
+            "prizeCurrent": 980910,
+            "prizeTotal": 21313049,
+            "id": 23,
+            "birthDateTimestamp": 525916800,
+            "prizeCurrentRaw": {
+                "value": 980910,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 21313049,
+                "currency": "EUR"
+            },
+            "currentRanking": 27
+        },
+        "nameCode": "MON",
+        "ranking": 68,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 14844,
+        "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+        },
+        "fullName": "Gael Monfils",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u063a\u0627\u064a\u0644 \u0645\u0648\u0646\u0641\u064a\u0644\u0633",
+                "ru": "\u041c\u043e\u043d\u0444\u0438\u0441, \u0413\u0430\u044d\u043b\u044c"
+            },
+            "shortNameTranslation": {
+                "ar": "\u063a. \u0645\u0648\u0646\u0641\u064a\u0644\u0633",
+                "hi": "\u091c\u0940. \u092e\u094b\u0928\u092b\u093c\u093f\u0932\u094d\u0938",
+                "bn": "\u099c\u09bf. \u09ae\u09a8\u09ab\u09bf\u09b2\u09b8"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

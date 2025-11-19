@@ -58,7 +58,7 @@ class API_requests:
         if self.daily_remaining > 1:
             if self.database.find_player_for_match_backfill(history):
                 player_id, name, page = self.database.find_player_for_match_backfill(history)
-                print(player_id)
+                print(player_id, name)
                 events_raw = self.send_request(f"player/{player_id}/events/previous/{page}")
                 events_json = events_raw.json()
                 self.database.add_match(events_json)
@@ -92,10 +92,10 @@ if __name__ == "__main__":
     #API.get_actual_rankings()
     proceeded = True
     #while(API.daily_remaining > 1 and proceeded):
-    proceeded = API.load_player_info()
+    #proceeded = API.load_player_info()
     proceeded = True
     #while(API.daily_remaining > 1 and proceeded):
-    #proceeded = API.load_player_events(0)
+    proceeded = API.load_player_events(0)
     #print(proceeded)
 
 #url = "https://tennisapi1.p.rapidapi.com/api/tennis/rankings/atp/live"

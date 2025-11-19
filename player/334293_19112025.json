@@ -1,0 +1,148 @@
+{
+    "team": {
+        "name": "Ethan Quinn",
+        "slug": "quinn-ethan",
+        "shortName": "E. Quinn",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "ATP",
+            "slug": "atp",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 3,
+            "country": {},
+            "flag": "atp",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0631\u0627\u0628\u0637\u0629 \u0645\u062d\u062a\u0631\u0641\u064a \u0627\u0644\u062a\u0646\u0633",
+                    "hi": "\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u091f\u0940\u090f",
+                    "bn": "\u098f\u099f\u09bf\u09aa\u09bf"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Lakewood, Singles Main, M-ITF-USA-23A",
+            "slug": "lakewood-singles-main-m-itf-usa-23a",
+            "category": {
+                "name": "ITF Men",
+                "slug": "itf-men",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 785,
+                "country": {},
+                "flag": "itf-men",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u062a\u0646\u0633 \u0627\u0644\u062f\u0648\u0644\u064a \u0644\u0644\u0631\u062c\u0627\u0644"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "ITF USA F23, Men Singles",
+                "slug": "itf-usa-f23-men-singles",
+                "category": {
+                    "name": "ITF Men",
+                    "slug": "itf-men",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 785,
+                    "country": {},
+                    "flag": "itf-men",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u062a\u0646\u0633 \u0627\u0644\u062f\u0648\u0644\u064a \u0644\u0644\u0631\u062c\u0627\u0644"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 6,
+                "hasPerformanceGraphFeature": false,
+                "id": 12545,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0637\u0648\u0644\u0629 ITF \u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u062d\u062f\u0629 F23\u060c \u0641\u0631\u062f\u064a \u0627\u0644\u0631\u062c\u0627\u0644"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 103833,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0644\u064a\u0643 \u0648\u0648\u062f\u060c \u0641\u0631\u062f\u064a \u0631\u0626\u064a\u0633\u064a\u060c M-ITF-USA-23A"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 3364,
+        "playerTeamInfo": {
+            "birthplace": "Fresno, California ",
+            "height": 1.91,
+            "weight": 82,
+            "plays": "right-handed",
+            "prizeCurrent": 782553,
+            "prizeTotal": 1130696,
+            "id": 5326,
+            "birthDateTimestamp": 1079049600,
+            "prizeCurrentRaw": {
+                "value": 782553,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 1130696,
+                "currency": "EUR"
+            },
+            "currentRanking": 70
+        },
+        "nameCode": "QUI",
+        "ranking": 70,
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 334293,
+        "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+        },
+        "fullName": "Ethan Quinn",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0625\u064a\u062b\u0627\u0646 \u0643\u0648\u064a\u0646",
+                "hi": "\u0908\u0925\u0928 \u0915\u094d\u0935\u093f\u0928",
+                "bn": "\u0987\u09a5\u09be\u09a8 \u0995\u09c1\u0987\u09a8"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0625. \u0643\u0648\u064a\u0646"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}

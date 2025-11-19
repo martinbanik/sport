@@ -1,0 +1,151 @@
+{
+    "team": {
+        "name": "Mariano Navone",
+        "slug": "navone-mariano",
+        "shortName": "M. Navone",
+        "gender": "M",
+        "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+        },
+        "category": {
+            "name": "Davis Cup",
+            "slug": "davis-cup",
+            "sport": {
+                "name": "Tennis",
+                "slug": "tennis",
+                "id": 5
+            },
+            "id": 76,
+            "country": {},
+            "flag": "davis-cup",
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0643\u0623\u0633 \u062f\u064a\u0641\u064a\u0633"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "tournament": {
+            "name": "Buenos Aires, Argentina, Doubles",
+            "slug": "buenos-aires-argentina-doubles",
+            "category": {
+                "name": "Challenger",
+                "slug": "challenger",
+                "sport": {
+                    "name": "Tennis",
+                    "slug": "tennis",
+                    "id": 5
+                },
+                "id": 72,
+                "country": {},
+                "flag": "challenger",
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                        "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                        "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "uniqueTournament": {
+                "name": "Buenos Aires, Argentina, Doubles",
+                "slug": "buenos-aires-argentina-doubles",
+                "category": {
+                    "name": "Challenger",
+                    "slug": "challenger",
+                    "sport": {
+                        "name": "Tennis",
+                        "slug": "tennis",
+                        "id": 5
+                    },
+                    "id": 72,
+                    "country": {},
+                    "flag": "challenger",
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u062a\u062d\u062f\u064a (\u062a\u0646\u0633)",
+                            "hi": "\u0921\u0947\u0928\u092e\u093e\u0930\u094d\u0915",
+                            "bn": "\u099a\u09cd\u09af\u09be\u09b2\u09c7\u099e\u09cd\u099c\u09be\u09b0"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "userCount": 26,
+                "tennisPoints": 100,
+                "hasPerformanceGraphFeature": false,
+                "id": 3713,
+                "country": {},
+                "displayInverseHomeAwayTeams": false,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0643\u0623\u0633 \u0645\u0632\u062f\u0648\u062c \u0628\u0648\u064a\u0646\u0633 \u0622\u064a\u0631\u0633\u060c \u0627\u0644\u0623\u0631\u062c\u0646\u062a\u064a\u0646"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "priority": 0,
+            "isLive": false,
+            "id": 102909,
+            "fieldTranslations": {
+                "nameTranslation": {
+                    "ar": "\u0628\u0648\u064a\u0646\u0633 \u0622\u064a\u0631\u0633\u060c \u0627\u0644\u0623\u0631\u062c\u0646\u062a\u064a\u0646\u060c \u0632\u0648\u062c\u064a"
+                },
+                "shortNameTranslation": {}
+            }
+        },
+        "userCount": 6717,
+        "playerTeamInfo": {
+            "birthplace": "9 de julio",
+            "height": 1.78,
+            "weight": 73,
+            "plays": "right-handed",
+            "prizeCurrent": 852884,
+            "prizeTotal": 1997552,
+            "id": 4034,
+            "birthDateTimestamp": 983232000,
+            "prizeCurrentRaw": {
+                "value": 852884,
+                "currency": "EUR"
+            },
+            "prizeTotalRaw": {
+                "value": 1997552,
+                "currency": "EUR"
+            },
+            "currentRanking": 72
+        },
+        "nameCode": "NAV",
+        "ranking": 72,
+        "class": 1,
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 271389,
+        "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+        },
+        "fullName": "Mariano Navone",
+        "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+        },
+        "fieldTranslations": {
+            "nameTranslation": {
+                "ar": "\u0645\u0627\u0631\u064a\u0627\u0646\u0648 \u0646\u0627\u0641\u0648\u0646\u064a",
+                "hi": "\u092e\u093e\u0930\u093f\u092f\u093e\u0928\u094b \u0928\u0935\u094b\u0928\u0947",
+                "bn": "\u09ae\u09be\u09b0\u09bf\u09af\u09bc\u09be\u09a8\u09cb \u09a8\u09be\u09ad\u09cb\u09a8\u09c7"
+            },
+            "shortNameTranslation": {
+                "ar": "\u0645. \u0646\u0627\u0641\u0648\u0646\u064a"
+            }
+        },
+        "timeActive": []
+    },
+    "pregameForm": null
+}
