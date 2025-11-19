@@ -70,8 +70,8 @@ class API_requests:
                     print("file saved")
                 return True
             else:
-                if self.database.find_recent_unfinished_matches(20):
-                    player_id = self.database.find_recent_unfinished_matches(20)[0][0]
+                if self.database.find_recent_unfinished_matches(10):
+                    player_id = self.database.find_recent_unfinished_matches(10)[0][0]
                     events_raw = self.send_request(f"player/{player_id}/events/previous/0")
                     events_json = events_raw.json()
                     self.database.add_match(events_json)
@@ -87,15 +87,41 @@ class API_requests:
             return False
 
 
+    def load_stats_of_event(self):
+        for rank in range(1, 51):
+            if self.daily_remaining > 0:
+                player_id = self.database.search('Rankings',
+                                      select_cols=['player_id'],
+                                      where_conditions={'rank': rank},
+                                      fetchone=True)
+                if player_id is not None:
+                    match_id = self.database.get_last_matches_for_player(player_id[0])
+                    if match_id is not None:
+                        print(match_id, player_id)
+                        stats_raw = self.send_request(f"event/{match_id}/statistics")
+                        stats_json = stats_raw.json()
+                        self.database.add_match_stats(stats_json, match_id)
+                        file = f"stats/{match_id}.json"
+                        with open(file, 'w') as f:
+                            json.dump(stats_json, f, indent=4)
+                            print("file saved")
+                        return True
+                else:
+                    return False
+            else:
+                return False
+
+
 if __name__ == "__main__":
     API = API_requests()
     #API.get_actual_rankings()
     proceeded = True
     #while(API.daily_remaining > 1 and proceeded):
-    #proceeded = API.load_player_info()
+    #proceeded = API.load_player_info()     #27
     proceeded = True
     #while(API.daily_remaining > 1 and proceeded):
-    proceeded = API.load_player_events(0)
+    #proceeded = API.load_player_events(0)   #34
+    API.load_stats_of_event()
     #print(proceeded)
 
 #url = "https://tennisapi1.p.rapidapi.com/api/tennis/rankings/atp/live"

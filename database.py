@@ -538,6 +538,88 @@ class Database:
                 print(f"Lookup error: {e}")
                 return None
 
+    def find_priority_match_to_download(self):
+        """
+        Finds the single best match to download stats for.
+
+        Criteria:
+        1. Match is finished (winner_id is set).
+        2. Stats are NOT downloaded yet (has_stats = 0).
+        3. Sorted by Date (Newest first).
+        4. Sorted by Rank (Highest ranked player first).
+
+        :return: match_id (int) or None
+        """
+
+        # We use '9999' as a fallback rank for unranked players so they
+        # fall to the bottom of the priority list.
+        sql_query = """
+        SELECT M.match_id
+        FROM Matches M
+
+        -- Join Rankings for Player 1 to get their rank
+        LEFT JOIN Rankings R1 ON R1.player_id = M.home_player_id 
+             AND R1.ranking_date = (SELECT MAX(ranking_date) FROM Rankings)
+
+        -- Join Rankings for Player 2 to get their rank
+        LEFT JOIN Rankings R2 ON R2.player_id = M.away_player_id 
+             AND R2.ranking_date = (SELECT MAX(ranking_date) FROM Rankings)
+
+        WHERE M.have_stats = 0           -- 1. We don't have stats yet
+          AND M.winner_id IS NOT NULL   -- 2. The match is finished
+
+        ORDER BY 
+            M.match_date DESC,          -- 3. Newest matches first
+            MIN(COALESCE(R1.rank, 9999), COALESCE(R2.rank, 9999)) ASC -- 4. Top players first
+
+        LIMIT 1;
+        """
+
+        with sqlite3.connect(self.name) as conn:
+            cursor = conn.cursor()
+            try:
+                cursor.execute(sql_query)
+                result = cursor.fetchone()
+                return result[0] if result else None
+            except sqlite3.Error as e:
+                print(f"An error occurred: {e}")
+                return None
+
+    def get_last_matches_for_player(self, player_id, limit=50):
+        """
+        Returns the last N finished matches for a specific player.
+        """
+        sql = """
+            SELECT 
+                M.match_id, 
+                M.match_date, 
+                M.score,
+                P1.name as p1_name,
+                P2.name as p2_name,
+                M.winner_id
+            FROM Matches M
+            JOIN Players P1 ON M.home_player_id = P1.player_id
+            JOIN Players P2 ON M.home_player_id = P2.player_id
+            WHERE (M.home_player_id = ? OR M.away_player_id = ?)
+              AND M.winner_id IS NOT NULL  -- Only finished matches
+              AND M.have_stats = 0
+            ORDER BY M.match_date DESC     -- Newest first
+            LIMIT ?                        -- Dynamic limit (e.g., 50)
+        """
+
+        with sqlite3.connect(self.name) as conn:
+            # This line allows you to access columns by name: row['match_date']
+            conn.row_factory = sqlite3.Row
+            cursor = conn.cursor()
+
+            try:
+                # Pass player_id twice (for OR) and the limit once
+                cursor.execute(sql, (player_id, player_id, limit))
+                result = cursor.fetchone()  # Returns a list of rows
+                return result[0] if result else None
+            except sqlite3.Error as e:
+                print(f"An error occurred: {e}")
+                return []
 if __name__ == "__main__":
     database = Database("tennis.db")
     #database.update_players_from_ranking()
@@ -565,3 +647,6 @@ if __name__ == "__main__":
     print(database.get_ranked_players(10, 20))
     for player in database.get_ranked_players(10, 20):
         print(database.get_player_history_at_date(player[5], 1))
+
+    print(database.find_priority_match_to_download())
+    print(database.get_last_matches_for_player(275923))
